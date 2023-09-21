@@ -72,7 +72,7 @@
 
   <!------------------------------------ Heading ------------------------------------->
   {{-- dnvfdvbfddvbfdv --}}
-
+<!-- vcvccccc -->
   <section class="heading">
 
     <h1 class="text-center pt-5 mt-5 " style="font-size:3rem;">About AstromarG</h1>
