@@ -71,6 +71,7 @@
 <div class="about text-light" data-aos="fade-up" style="padding: 0rem 0rem;">
 
   <!------------------------------------ Heading ------------------------------------->
+  {{-- dnvfdvbfddvbfdv --}}
 
   <section class="heading">
 
