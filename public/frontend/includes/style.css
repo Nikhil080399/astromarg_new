@@ -1,0 +1,170 @@
+
+.spinner {
+
+    animation-name: spin;
+    animation-duration: 19000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* transform: rotate(3deg); */
+    /* transform: rotate(0.3rad);/ */
+    /* transform: rotate(3grad); */
+    /* transform: rotate(.03turn);  */
+   
+}
+ul li a, h1 a,a{
+text-decoration: none !important;
+}
+
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner:hover {
+    animation: none;
+}
+
+.spinner1 {
+
+    animation-name: spin;
+    animation-duration: 8000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    left: 170px;
+    top: 110px;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner1:hover {
+    animation: none;
+}
+.about {
+    background-color: #07273c;
+}
+
+.img {
+    width: 85%;
+    height: 90%;
+    z-index: 1;
+    float: right;
+}
+
+.aboutimg {
+    width: 80%;
+    height: 100%;
+    background-color: #17384e;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+
+    z-index: -1;
+
+    /* box-shadow: -30px 30px #17384e;
+  -moz-box-shadow: -30px 30px #17384e;
+  -webkit-box-shadow: -50px 55px #17384e;
+  -khtml-box-shadow: -50px 55px #17384e; */
+}
+
+.aboutimg1 {
+
+    width: 90px;
+    height: 90px;
+    background-color: #17384e;
+    position: absolute;
+    left: 50px;
+    bottom: -50px;
+    border-left: 2px solid #ff4a17;
+    border-bottom: 2px solid #ff4a17;
+    z-index: -1;
+    border-right-width: 20px;
+}
+
+.zodiac {
+    background-color: #07273c;
+}
+
+.vishes {
+    background-color: #07273c;
+    padding: 10px, 0px;
+    
+}
+
+.visheslist {
+    background-color: #17384e;
+    padding: 30px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.visheslist:hover {
+    background-color: #fe6e00;
+
+
+}
+
+.visheslist li {
+    display:inline;
+    padding: 30px;
+    text-align: left;
+    
+}
+
+.zodiaclist {
+    list-style-type: none;
+}
+
+.sign {
+
+    width: 100%;
+    height: 60px;
+    background-color: #17384e;
+    border-radius: 50px;
+    margin: 30px 0px;
+}
+
+.sign img {
+    position: absolute;
+    left: 17px;
+    top: 3px;
+    width: 55px;
+}
+
+@media screen and (max-width: 1010px)  {
+    .spinner1 {
+    display: none;
+}
+.middle{
+    display: none; 
+
+}
+
+.sright > h5 {
+padding-left: 75px;
+}
+
+.sright > p {
+padding-left: 75px;
+}
+ .visheslist li {
+    display: block;
+    text-align: left;
+    padding: 10px;
+}
+
+}
