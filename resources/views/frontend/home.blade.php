@@ -195,6 +195,7 @@
     <section id="hero">
         <div class="hero-container" data-aos="fade-up" data-aos-delay="150">
             <div class="row">
+                {{-- nick --}}
                 <div class="col-md-6 mt-5">
 
                     <div id="demo" class="carousel slide" data-ride="carousel" style="min-height:450px">
