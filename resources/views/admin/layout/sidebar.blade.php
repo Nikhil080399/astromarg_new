@@ -17,7 +17,13 @@
                 </div>
                 <div class="menu-title">Dashboard</div>
             </a>
-
+        </li>
+        <li>
+            <a href="javascript:;">
+                <div class="parent-icon"><i class='bx bx-command'></i>
+                </div>
+                <div class="menu-title">UI Setting</div>
+            </a>
         </li>
         <li>
             <a href="javascript:;" class="has-arrow">
@@ -32,7 +38,39 @@
                 </li>
             </ul>
         </li>
-       
+        <li>
+            <a href="{{ url('profile') }}">
+                <div class="parent-icon"><i class='bx bx-command'></i>
+                </div>
+                <div class="menu-title">Profile</div>
+            </a>
+
+        {{-- <li>
+            <a href="{{ url('profile') }}">
+                <div class="parent-icon">
+                    <i class="bx bx-home-circle"></i>
+                    <div class="menu-title">Profile</div>
+                </div>
+            </a>
+        </li> --}}
+
+        <li class="pl-4">
+            <a href="javascript:void(0)">
+                <form action="{{ route('logout') }}" method="POST">
+                    @csrf
+                    <button type="submit" class="btn btn-primary">Logout</button>
+                </form>
+            </a>
+
+
+
+            {{-- <a href="{{route ('logout')}}">
+                <div class="parent-icon"><i class='bx bx-home-circle'></i>
+                </div>
+                <div class="menu-title">Log Out</div>
+            </a> --}}
+        </li>
+
     </ul>
     <!--end navigation-->
 </div>
