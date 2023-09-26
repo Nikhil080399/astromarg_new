@@ -234,11 +234,11 @@
 
                         <!-- Left and right controls -->
                         <!-- <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                                                    <span class="carousel-control-prev-icon"></span>
-                                                  </a>
-                                                  <a class="carousel-control-next" href="#demo" data-slide="next">
-                                                    <span class="carousel-control-next-icon"></span>
-                                                  </a> -->
+                                                                    <span class="carousel-control-prev-icon"></span>
+                                                                  </a>
+                                                                  <a class="carousel-control-next" href="#demo" data-slide="next">
+                                                                    <span class="carousel-control-next-icon"></span>
+                                                                  </a> -->
 
                     </div>
                 </div>
@@ -1347,6 +1347,630 @@
     </div>
 
 
+    <!--========================================= Gemstones =========================================-->
+    <div class="container-fluid" style="background-color: rgb(7,39,60)">
+        <div class="twelve pt-5">
+            <h1>Gemstones</h1>
+        </div>
+
+        <div class="row px-3">
+
+            <!--=========================== Amethyst ==============================-->
+
+            <div class="col-md-6 col-lg-3 col-sm-12 mb-4">
+                <div class="card ">
+                    <div class="card-img">
+                        <img src="{{ asset('frontend/gems/Ametyst.png') }}" alt="">
+                    </div>
+                    <h5 class="fw-bold">Amethyst</h5>
+                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <p>Amethyst represents Saturn(Shani). Amethyst are found in any shade of purple to violet.</p>
+                    <div>
+                        <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#gem_1">Read
+                            More</button>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- The Modal -->
+            <div class="modal fade" id="gem_1">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Amethyst</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/Amethyst.jpg') }}"
+                                alt="">
+
+
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <a href="{{ asset('frontend/AstromarG/Kiran Sir/Amethyst.jpg') }}" Download="test_image">
+                                <button type="button" class="btn btn-danger" src="" download>Download</button>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--=========================== Blue Sapphire ==============================-->
+
+            <div class="col-md-6 col-lg-3 col-sm-12 mb-4">
+                <div class="card ">
+                    <div class="card-img">
+                        <img src="{{ asset('frontend/gems/blue_sapphire.png') }}" alt="">
+                    </div>
+                    <h5 class="fw-bold">Blue Sapphire</h5>
+                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+
+                    <p>Blue Sapphire represents Saturn(Shani). Blue Sapphires are found in any shade of blue, from light
+                        blue to dark blue.</p>
+                    <div>
+                        <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#gem_2">Read
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- The Modal -->
+            <div class="modal fade" id="gem_2">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Blue Sapphire</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/Blue Sapphire.jpg') }}"
+                                alt="">
+
+
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <a href="{{ asset('frontend/AstromarG/Kiran Sir/Blue Sapphire.jpg') }}"
+                                Download="test_image">
+                                <button type="button" class="btn btn-danger" src="" download>Download</button>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--=========================== Cat Eye ==============================-->
+
+            <div class="col-md-6 col-lg-3 col-sm-12 mb-4">
+                <div class="card ">
+                    <div class="card-img">
+                        <img src="{{ asset('frontend/gems/Cat_Eye.png') }}" alt="">
+                    </div>
+                    <h5 class="fw-bold">Cat's Eye</h5>
+                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+
+                    <p>Cat's eye represents Ketu. Cat's eye is found in any shade of light green, from light yellow to light
+                        brown and the only thing common to all shades.</p>
+                    <div>
+                        <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#gem_3">Read
+                            More</button>
+                    </div>
+
+                </div>
+            </div>
+            <!-- The Modal -->
+            <div class="modal fade" id="gem_3">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Cat's Eye</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/Cats Eye.jpg') }}"
+                                alt="">
+
+
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <a href="{{ asset('frontend/AstromarG/Kiran Sir/Cats Eye.jpg') }}" Download="test_image">
+                                <button type="button" class="btn btn-danger" src="" download>Download</button>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--=========================== Citrine ==============================-->
+
+            <div class="col-md-6 col-lg-3 col-sm-12 mb-4">
+                <div class="card ">
+                    <div class="card-img">
+                        <img src="{{ asset('frontend/gems/citrine_stone.png') }}" alt="">
+                    </div>
+                    <h5 class="fw-bold">Citrine</h5>
+                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+
+                    <p>Citrine represents jupiter(Guru) are found in any shade of yellow , from light yellow to dark golden
+                        yellow.</p>
+                    <div>
+                        <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#gem_4">Read
+                            More</button>
+                    </div>
+
+                </div>
+            </div>
+            <!-- The Modal -->
+            <div class="modal fade" id="gem_4">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Citrine</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/Citrine.jpg') }}"
+                                alt="">
+
+
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <a href="{{ asset('frontend/AstromarG/Kiran Sir/Citrine.jpg') }}" Download="test_image">
+                                <button type="button" class="btn btn-danger" src="" download>Download</button>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row px-3" id="row2" style="display:none;">
+
+            <!--=========================== Coral ==============================-->
+
+            <div class="col-md-6 col-lg-3 col-sm-12 mb-4">
+                <div class="card ">
+                    <div class="card-img">
+                        <img src="{{ asset('frontend/gems/coral.png') }}" alt="">
+                    </div>
+                    <h5 class="fw-bold">Coral</h5>
+                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+
+                    <p>Coral represents Mars(Mangal). It is found throughout the Mediterranean Sea and Red Sea areas, Spain,
+                        Morroco, Malaysia and Japan.
+                    </p>
+                    <div>
+                        <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#gem_5">Read
+                            More</button>
+                    </div>
+
+                </div>
+            </div>
+            <!-- The Modal -->
+            <div class="modal fade" id="gem_5">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Coral</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/Coral.jpg') }}"
+                                alt="">
+
+
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <a href="{{ asset('frontend/AstromarG/Kiran Sir/Coral.jpg') }}" Download="test_image">
+                                <button type="button" class="btn btn-danger" src="" download>Download</button>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!--=========================== Diamond ==============================-->
+
+            <div class="col-md-6 col-lg-3 col-sm-12 mb-4">
+                <div class="card ">
+                    <div class="card-img">
+                        <img src="{{ asset('frontend/gems/diamond_stone.png') }}" alt="">
+                    </div>
+                    <h5 class="fw-bold">Diamond</h5>
+                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+
+                    <p>Diamond represents Venus(Shukra). Diamonds are chemically solid carbon. Diamond color is white as
+                        well as of other colors.</p>
+                    <div>
+                        <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#gem_6">Read
+                            More</button>
+                    </div>
+
+                </div>
+            </div>
+            <!-- The Modal -->
+            <div class="modal fade" id="gem_6">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Diamond</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/Diamond.jpg') }}"
+                                alt="">
+
+
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <a href="{{ asset('frontend/AstromarG/Kiran Sir/Diamond.jpg') }}" Download="test_image">
+                                <button type="button" class="btn btn-danger" src="" download>Download</button>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!--=========================== Emrald ==============================-->
+
+            <div class="col-md-6 col-lg-3 col-sm-12 mb-4">
+                <div class="card ">
+                    <div class="card-img">
+                        <img src="{{ asset('frontend/gems/emrald.png') }}" alt="">
+                    </div>
+                    <h5 class="fw-bold">Emerald</h5>
+                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <p>Emrald represents the planet Mercury(Buddha). Buddha mercury is the "prince" in jyotish and is
+                        influenced by Surya and Chandra.</p>
+                    <div>
+                        <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#gem_7">Read
+                            More</button>
+                    </div>
+
+                </div>
+            </div>
+            <!-- The Modal -->
+            <div class="modal fade" id="gem_7">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Emerald</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/Emerald.jpg') }}"
+                                alt="">
+
+
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <a href="{{ asset('frontend/AstromarG/Kiran Sir/Emerald.jpg') }}" Download="test_image">
+                                <button type="button" class="btn btn-danger" src="" download>Download</button>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--=========================== Hessonite ==============================-->
+
+            <div class="col-md-6 col-lg-3 col-sm-12 mb-4">
+                <div class="card ">
+                    <div class="card-img">
+                        <img src="{{ asset('frontend/gems/hessonite_stone.png') }}" alt="">
+                    </div>
+                    <h5 class="fw-bold">Hessonite</h5>
+                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+
+                    <p>Hessonite(Gomed) represents Rahu. Hessonites are found in any shade from light brown to dark brown
+                        like the colour of cow's urine or shade of honey tinged with blackish colour.</p>
+                    <div>
+                        <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#myModal_8">Read
+                            More</button>
+                    </div>
+
+                </div>
+            </div>
+            <!-- The Modal -->
+            <div class="modal fade" id="myModal_8">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Hessonite</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/Hessonite.jpg') }}"
+                                alt="">
+
+
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <a href="{{ asset('frontend/AstromarG/Kiran Sir/Hessonite.jpg') }}" Download="test_image">
+                                <button type="button" class="btn btn-danger" src="" download>Download</button>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!--=========================== Opal ==============================-->
+
+            <div class="col-md-6 col-lg-3 col-sm-12 mb-4">
+                <div class="card ">
+                    <div class="card-img">
+                        <img src="{{ asset('frontend/gems/opal.png') }}" alt="">
+                    </div>
+                    <h5 class="fw-bold">Opal</h5>
+                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <p>Opal is derived from the sanskrit name "upala". Opal represents Venus(Shukra).</p>
+                    <div>
+                        <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#gem_9">Read
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- The Modal -->
+            <div class="modal fade" id="gem_9">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Opal</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/Opal.jpg') }}"
+                                alt="">
+
+
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <a href="{{ asset('frontend/AstromarG/Kiran Sir/Opal.jpg') }}" Download="test_image">
+                                <button type="button" class="btn btn-danger" src="" download>Download</button>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--=========================== Pearl ==============================-->
+            <div class=" col-md-6 col-lg-3 col-sm-12 mb-4">
+                <div class="card ">
+                    <div class="card-img">
+                        <img src="{{ asset('frontend/gems/pearl_stone.png') }}" alt="">
+                    </div>
+                    <h5 class="fw-bold">Pearl Stone</h5>
+                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+
+                    <p>Pearl represents the Moon </p>
+                    <div>
+                        <button class="button-21" role="button" data-bs-toggle="modal"
+                            data-bs-target="#gem_10">Read
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- The Modal -->
+            <div class="modal fade" id="gem_10">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Pearl Stone</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/pearl.jpg') }}"
+                                alt="">
+
+
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <a href="{{ asset('frontend/AstromarG/Kiran Sir/pearl.jpg') }}" Download="test_image">
+                                <button type="button" class="btn btn-danger" src=""
+                                    download>Download</button>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--=========================== Ruby Stone ==============================-->
+            <div class="col-md-6 col-lg-3 col-sm-12 mb-4">
+                <div class="card ">
+                    <div class="card-img">
+                        <img src="{{ asset('frontend/gems/ruby_stone.png') }}" alt="">
+                    </div>
+                    <h5 class="fw-bold">Ruby</h5>
+                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+
+                    <p>Ruby represents the planet sun.</p>
+                    <div>
+                        <button class="button-21" role="button" data-bs-toggle="modal"
+                            data-bs-target="#gem_11">Read
+                            More</button>
+                    </div>
+
+                </div>
+            </div>
+            <!-- The Modal -->
+            <div class="modal fade" id="gem_11">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Ruby</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/ruby.jpg') }}"
+                                alt="">
+
+
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <a href="{{ asset('frontend/AstromarG/Kiran Sir/ruby.jpg') }}" Download="test_image">
+                                <button type="button" class="btn btn-danger" src=""
+                                    download>Download</button>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--=========================== Yellow Sapphire ==============================-->
+
+            <div class=" col-md-6 col-lg-3 col-sm-12 mb-4">
+                <div class="card ">
+                    <div class="card-img">
+                        <img src="{{ asset('frontend/gems/yellow_sapphire_.png') }}" alt="">
+                    </div>
+                    <h5 class="fw-bold">Yellow Sapphire</h5>
+                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+
+                    <p>Yellow Sapphire represents Jupiter(Guru).</p>
+                    <div>
+                        <button class="button-21" role="button" data-bs-toggle="modal"
+                            data-bs-target="#gem_12">Read
+                            More</button>
+                    </div>
+
+                </div>
+            </div>
+            <!-- The Modal Body -->
+            <div class="modal fade" id="gem_12">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Yellow Sapphire</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <img class="img-fluid"
+                                src="{{ asset('frontend/AstromarG/Kiran Sir/Yellow Sapphire.jpg') }}" alt="">
+
+
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <a href="{{ asset('frontend/AstromarG/Kiran Sir/Yellow Sapphire.jpg') }}"
+                                Download="test_image">
+                                <button type="button" class="btn btn-danger" src=""
+                                    download>Download</button>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center" id="for_more" style="background-color: #07273c;">
+        <button class="btn btn-warning" onclick="more1();">View More</button>
+    </div>
+    <div class="text-center" id="for_less" style="display:none; background-color: #07273c;">
+        <button class="btn btn-primary" onclick="less1();">View Less</button>
+    </div>
+
+    <script>
+        function more1() {
+            document.getElementById("row2").style.display = "flex";
+            document.getElementById("for_more").style.display = "none";
+            document.getElementById("for_less").style.display = "block";
+
+        }
+
+        function less1() {
+            document.getElementById("row2").style.display = "none";
+            document.getElementById("for_more").style.display = "block";
+            document.getElementById("for_less").style.display = "none";
+        }
+    </script>
+
+
+
 
     {{-- slider end --}}
 
@@ -1362,7 +1986,8 @@
             <div class="container d-flex" data-aos="fade-up">
                 <ul class="visheslist mt-5">
                     <li> <img src="{{ asset('frontend/assets/image/eye.png') }}" width="30px"
-                            class="img-fluid">&nbsp;&nbsp; <a class="text-white" href="#">Birth Chart Analysis</a>
+                            class="img-fluid">&nbsp;&nbsp; <a class="text-white" href="#">Birth Chart
+                            Analysis</a>
                     </li>
 
                     <li> <img src="{{ asset('frontend/assets/image/eye.png') }}" width="30px"
@@ -1370,19 +1995,23 @@
                             Solutions</a> </li>
 
                     <li> <img src="{{ asset('frontend/assets/image/eye.png') }}" width="30px"
-                            class="img-fluid">&nbsp;&nbsp;<a class="text-white" href="#">Horoscope Readings</a>
+                            class="img-fluid">&nbsp;&nbsp;<a class="text-white" href="#">Horoscope
+                            Readings</a>
                     </li>
 
                     <li> <img src="{{ asset('frontend/assets/image/eye.png') }}" width="30px"
-                            class="img-fluid">&nbsp;&nbsp;<a class="text-white" href="#">Education and Learning
+                            class="img-fluid">&nbsp;&nbsp;<a class="text-white" href="#">Education and
+                            Learning
                             Guidance</a></li>
 
                     <li> <img src="{{ asset('frontend/assets/image/eye.png') }}" width="30px"
-                            class="img-fluid">&nbsp;&nbsp;<a class="text-white" href="#">Compatibility Analysis</a>
+                            class="img-fluid">&nbsp;&nbsp;<a class="text-white" href="#">Compatibility
+                            Analysis</a>
                     </li>
 
                     <li> <img src="{{ asset('frontend/assets/image/eye.png') }}" width="30px"
-                            class="img-fluid">&nbsp;&nbsp;<a class="text-white" href="#">Muhurtha and Timing</a>
+                            class="img-fluid">&nbsp;&nbsp;<a class="text-white" href="#">Muhurtha and
+                            Timing</a>
                     </li>
 
                     <li> <img src="{{ asset('frontend/assets/image/eye.png') }}" width="30px"
@@ -1390,19 +2019,23 @@
                             Guidance</a> </li>
 
                     <li> <img src="{{ asset('frontend/assets/image/eye.png') }}" width="30px"
-                            class="img-fluid">&nbsp;&nbsp; <a class="text-white" href="#">Career Counseling</a>
+                            class="img-fluid">&nbsp;&nbsp; <a class="text-white" href="#">Career
+                            Counseling</a>
                     </li>
 
                     <li> <img src="{{ asset('frontend/assets/image/eye.png') }}" width="30px"
-                            class="img-fluid">&nbsp;&nbsp;<a class="text-white" href="#">Marriage and Relationship
+                            class="img-fluid">&nbsp;&nbsp;<a class="text-white" href="#">Marriage and
+                            Relationship
                             Consultations</a></li>
 
                     <li> <img src="{{ asset('frontend/assets/image/eye.png') }}" width="30px"
-                            class="img-fluid">&nbsp;&nbsp;<a class="text-white" href="#">Child Birth Timing</a>
+                            class="img-fluid">&nbsp;&nbsp;<a class="text-white" href="#">Child Birth
+                            Timing</a>
                     </li>
 
                     <li> <img src="{{ asset('frontend/assets/image/eye.png') }}" width="30px"
-                            class="img-fluid">&nbsp;&nbsp;<a class="text-white" href="#">Health and Well-Being
+                            class="img-fluid">&nbsp;&nbsp;<a class="text-white" href="#">Health and
+                            Well-Being
                             Insights</a></li>
 
                     <li> <img src="{{ asset('frontend/assets/image/eye.png') }}" width="30px"
@@ -1422,9 +2055,11 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xl-12 col-lg-12 col-12">
                     <div class="text-center m-4">
-                        <h1 class="text-center text-white">Choose <span style="color:#ff4a17; font-weight:600"> Zodiac
+                        <h1 class="text-center text-white">Choose <span style="color:#ff4a17; font-weight:600">
+                                Zodiac
                                 sign</span></h1>
-                        <p class="text-justify text-center text-white">A horoscope is used to provide information about
+                        <p class="text-justify text-center text-white">A horoscope is used to provide information
+                            about
                             the present and to predict events to come.</p>
                     </div>
                 </div>
@@ -1438,7 +2073,8 @@
                                     <div class="aries">
                                         <div class="row">
                                             <div class="col-lg-4 sleft">
-                                                <img src="{{ asset('frontend/assets/image/s1.png') }}" class="img-fluid">
+                                                <img src="{{ asset('frontend/assets/image/s1.png') }}"
+                                                    class="img-fluid">
                                             </div>
                                             <div class="col-lg-8 sright">
                                                 <h5>Aries</h5>
@@ -1456,7 +2092,8 @@
                                     <div class="Taurus">
                                         <div class="row">
                                             <div class="col-lg-4 sleft"><img
-                                                    src="{{ asset('frontend/assets/image/s2.png') }}" class="img-fluid">
+                                                    src="{{ asset('frontend/assets/image/s2.png') }}"
+                                                    class="img-fluid">
                                             </div>
                                             <div class="col-lg-8 sright">
                                                 <h5>Taurus</h5>
@@ -1474,7 +2111,8 @@
                                     <div class="Gemini">
                                         <div class="row">
                                             <div class="col-lg-4 sleft"><img
-                                                    src="{{ asset('frontend/assets/image/s3.png') }}" class="img-fluid">
+                                                    src="{{ asset('frontend/assets/image/s3.png') }}"
+                                                    class="img-fluid">
                                             </div>
                                             <div class="col-lg-8 sright">
                                                 <h5> Gemini</h5>
@@ -1492,7 +2130,8 @@
                                     <div class="Cancer">
                                         <div class="row">
                                             <div class="col-lg-4 sleft"><img
-                                                    src="{{ asset('frontend/assets/image/s4.png') }}" class="img-fluid">
+                                                    src="{{ asset('frontend/assets/image/s4.png') }}"
+                                                    class="img-fluid">
                                             </div>
                                             <div class="col-lg-8 sright">
                                                 <h5>Cancer</h5>
@@ -1510,7 +2149,8 @@
                                     <div class="Leo">
                                         <div class="row">
                                             <div class="col-lg-4 sleft"><img
-                                                    src="{{ asset('frontend/assets/image/s5.png') }}" class="img-fluid">
+                                                    src="{{ asset('frontend/assets/image/s5.png') }}"
+                                                    class="img-fluid">
                                             </div>
                                             <div class="col-lg-8 sright">
                                                 <h5>Leo</h5>
@@ -1528,7 +2168,8 @@
                                     <div class="Vigro">
                                         <div class="row">
                                             <div class="col-lg-4 sleft"><img
-                                                    src="{{ asset('frontend/assets/image/s6.png') }}" class="img-fluid">
+                                                    src="{{ asset('frontend/assets/image/s6.png') }}"
+                                                    class="img-fluid">
                                             </div>
                                             <div class="col-lg-8 sright ">
                                                 <h5>Vigro</h5>
@@ -1542,7 +2183,8 @@
                 </div>
                 <div class="col-lg-6 col-md-12 col-xl-6 col-sm-12 col-12 middle ">
                     <div class=" text-center mt-5"> <img class="spinner1"
-                            src="{{ asset('frontend/assets/image/horoscope.png') }}" width="60%" class="img-fluid">
+                            src="{{ asset('frontend/assets/image/horoscope.png') }}" width="60%"
+                            class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-12 col-xl-3 col-sm-12 col-12 ">
@@ -1553,7 +2195,8 @@
                                     <div class="Libra">
                                         <div class="row">
                                             <div class="col-lg-4 sleft"><img
-                                                    src="{{ asset('frontend/assets/image/s7.png') }}" class="img-fluid">
+                                                    src="{{ asset('frontend/assets/image/s7.png') }}"
+                                                    class="img-fluid">
                                             </div>
                                             <div class="col-lg-8 sright">
                                                 <h5>Libra</h5>
@@ -1571,7 +2214,8 @@
                                     <div class="Scorpio">
                                         <div class="row">
                                             <div class="col-lg-4 sleft"><img
-                                                    src="{{ asset('frontend/assets/image/s8.png') }}" class="img-fluid">
+                                                    src="{{ asset('frontend/assets/image/s8.png') }}"
+                                                    class="img-fluid">
                                             </div>
                                             <div class="col-lg-8 sright">
                                                 <h5>Scorpio</h5>
@@ -1589,7 +2233,8 @@
                                     <div class="Sagittairus">
                                         <div class="row">
                                             <div class="col-lg-4 sleft"><img
-                                                    src="{{ asset('frontend/assets/image/s9.png') }}" class="img-fluid">
+                                                    src="{{ asset('frontend/assets/image/s9.png') }}"
+                                                    class="img-fluid">
                                             </div>
                                             <div class="col-lg-8 sright">
                                                 <h5>Sagittairus</h5>
@@ -1607,7 +2252,8 @@
                                     <div class="Capricorn">
                                         <div class="row">
                                             <div class="col-lg-4 sleft"><img
-                                                    src="{{ asset('frontend/assets/image/s10.pn') }}g" class="img-fluid">
+                                                    src="{{ asset('frontend/assets/image/s10.pn') }}g"
+                                                    class="img-fluid">
                                             </div>
                                             <div class="col-lg-8 sright">
                                                 <h5>Capricorn</h5>
@@ -1625,7 +2271,8 @@
                                     <div class="Aquarius">
                                         <div class="row">
                                             <div class="col-lg-4 sleft"><img
-                                                    src="{{ asset('frontend/assets/image/s11.pn') }}g" class="img-fluid">
+                                                    src="{{ asset('frontend/assets/image/s11.pn') }}g"
+                                                    class="img-fluid">
                                             </div>
                                             <div class="col-lg-8 sright">
                                                 <h5>Aquarius</h5>
@@ -1643,7 +2290,8 @@
                                     <div class="Pisces">
                                         <div class="row">
                                             <div class="col-lg-4 sleft"><img
-                                                    src="{{ asset('frontend/assets/image/s12.pn') }}g" class="img-fluid">
+                                                    src="{{ asset('frontend/assets/image/s12.pn') }}g"
+                                                    class="img-fluid">
                                             </div>
                                             <div class="col-lg-8 sright">
                                                 <h5>Pisces</h5>
