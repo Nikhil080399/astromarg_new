@@ -1,11 +1,9 @@
-<div class="sidebar-wrapper" data-simplebar="true">
-    <div class="sidebar-header">
+<div class="sidebar-wrapper " data-simplebar="true">
+    <div class="sidebar-header bg-dark">
         <div>
-            <img src="{{ asset('backend/assets/images/logo-icon.png') }}" class="logo-icon" alt="logo icon">
+            <img src="{{ asset('backend/assets/images/1.png') }}" class="" alt="logo icon" style="height: 50px; width:100px">
         </div>
-        <div>
-            <h4 class="logo-text">Rukada</h4>
-        </div>
+       
         <div class="toggle-icon ms-auto"><i class='bx bx-arrow-to-left'></i>
         </div>
     </div>
