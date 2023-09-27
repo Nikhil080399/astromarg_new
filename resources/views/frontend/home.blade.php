@@ -32,6 +32,7 @@
         .card h5 {
             color: white;
         }
+
         .card h5 {
             color: white;
         }
@@ -52,11 +53,12 @@
             flex: 1 1 200px;
             margin: 10px;
             display: none;
-            
+
 
         }
-        .pmd-card-media img{
-            height: 10rem;
+
+        .pmd-card-media img {
+            height: 15rem;
         }
 
         .card:nth-child(1) {
@@ -196,19 +198,19 @@
         }
 
         /* Bootstrap css */
-@import "https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css";
+        @import "https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css";
 
-/* Google Material Icons */
-@import "http://fonts.googleapis.com/icon?family=Material+Icons";
+        /* Google Material Icons */
+        @import "http://fonts.googleapis.com/icon?family=Material+Icons";
 
-/* Propeller CSS */
-@import "dist/css/propeller.min.css";
+        /* Propeller CSS */
+        @import "dist/css/propeller.min.css";
 
-/* Owl Carousel CSS */
-@import "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css";
+        /* Owl Carousel CSS */
+        @import "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css";
 
-/* Propeller Carousel */
-@import "carousel/css/pmd-carousel.css";
+        /* Propeller Carousel */
+        @import "carousel/css/pmd-carousel.css";
     </style>
 
 
@@ -256,11 +258,11 @@
 
                         <!-- Left and right controls -->
                         <!-- <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                                                                        <span class="carousel-control-prev-icon"></span>
-                                                                      </a>
-                                                                      <a class="carousel-control-next" href="#demo" data-slide="next">
-                                                                        <span class="carousel-control-next-icon"></span>
-                                                                      </a> -->
+                                                                                <span class="carousel-control-prev-icon"></span>
+                                                                              </a>
+                                                                              <a class="carousel-control-next" href="#demo" data-slide="next">
+                                                                                <span class="carousel-control-next-icon"></span>
+                                                                              </a> -->
 
                     </div>
                 </div>
@@ -1974,13 +1976,13 @@
     <div class="text-center" id="for_less" style="display:none; background-color: #07273c;">
         <button class="btn btn-primary" onclick="less1();">View Less</button>
     </div>
- 
 
 
-   {{-- slider end --}}
+
+    {{-- slider end --}}
 
 
-   <script>
+    <script>
         function more1() {
             document.getElementById("row2").style.display = "flex";
             document.getElementById("for_more").style.display = "none";
@@ -2065,218 +2067,446 @@
 
     </section> --}}
     <!--start zodiac sign -->
-   <!-- =========================== stotra =================================-->
-<div id="autoplay-carousel" class="autoplay-carousel owl-carousel pmd-card-carousel owl-theme text-center" style="background-color: rgb(7,39,60);">
-	<div class="item">
-		<div class="card pmd-card">
-			<!-- Card Media -->
-			<div class="pmd-card-media">
-				<img src= "{{ asset('frontend/stotra/ganpati.jpg') }}" width="1184" height="666" class="img-fluid">
-			</div>
-			
-			<!-- Card Body -->
-			<div class="card-body">
-				<h5 class="card-title">॥ श्री गणेश स्तोत्र ॥</h5>
-				
-			</div>
-			
-			<!-- Card Footer -->
-			<div class="card-footer">
-				<a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
-			</div>
-		</div>
-	</div>
-	<div class="item">
-		<div class="card pmd-card">
-			<!-- Card Media -->
-			<div class="pmd-card-media">
-				<img src="{{ asset('frontend/stotra/mahadev.jpg') }}" width="1184" height="666" class="img-fluid">
-			</div>
-			
-			<!-- Card Body -->
-			<div class="card-body">
-				<h5 class="card-title">॥ श्रीरुद्राष्टकम् ॥</h5>
-				
-			</div>
-			
-			<!-- Card Footer -->
-			<div class="card-footer">
-                <a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
-			</div>
-		</div>
-	</div>
-	<div class="item">
-		<div class="card pmd-card">
-			<!-- Card Media -->
-			<div class="pmd-card-media">
-				<img src="{{ asset('frontend/stotra/hanuman1.jpg') }}" width="1184" height="666" class="img-fluid">
-			</div>
-			
-			<!-- Card Body -->
-			<div class="card-body">
-				<h5 class="card-title">॥ हनुमान चालीसा ॥</h5>
-			
-			</div>
-			
-			<!-- Card Footer -->
-			<div class="card-footer">
-				<a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
-			</div>
-		</div>
-	</div>
-	<div class="item">
-		<div class="card pmd-card">
-			<!-- Card Media -->
-			<div class="pmd-card-media">
-				<img src="{{ asset('frontend/stotra/mahalaxmi.jpg') }}" width="1184" height="666" class="img-fluid">
-			</div>
-			
-			<!-- Card Body -->
-			<div class="card-body">
-				<h5 class="card-title">॥ श्री महालक्ष्म्यष्टकम् ॥</h5>
-				
-			</div>
-			
-			<!-- Card Footer -->
-			<div class="card-footer">
-                <a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
-			</div>
-		</div>
-	</div>
-	<div class="item">
-		<div class="card pmd-card">
-			<!-- Card Media -->
-			<div class="pmd-card-media">
-				<img src="{{ asset('frontend/stotra/kaal_bhairav.jpg') }}" width="1184" height="666" class="img-fluid">
-			</div>
-			
-			<!-- Card Body -->
-			<div class="card-body">
-				<h5 class="card-title">॥ काल भैरव अष्टक ॥</h5>
-				
-			</div>
-			
-			<!-- Card Footer -->
-			<div class="card-footer">
-                <a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
-			</div>
-		</div>
-	</div>
-	<div class="item">
-		<div class="card pmd-card">
-			<!-- Card Media -->
-			<div class="pmd-card-media">
-				<img src="{{ asset('frontend/stotra/aditya_suryadev.jpg') }}" width="1184" height="666" class="img-fluid">
-			</div>
-			
-			<!-- Card Body -->
-			<div class="card-body">
-				<h5 class="card-title">॥ आदित्य हृदयस्तोत्र ॥</h5>
-				
-			</div>
-			
-			<!-- Card Footer -->
-			<div class="card-footer">
-				<a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
-			</div>
-		</div>
-	</div>
-    <div class="item">
-		<div class="card pmd-card">
-			<!-- Card Media -->
-			<div class="pmd-card-media">
-				<img src="{{ asset('frontend/stotra/mahadev2.jpg') }}" width="1184" height="666" class="img-fluid">
-			</div>
-			
-			<!-- Card Body -->
-			<div class="card-body">
-				<h5 class="card-title">॥ दारिद्र्य दहन शिवस्तोत्रं ॥</h5>
-				
-			</div>
-			
-			<!-- Card Footer -->
-			<div class="card-footer">
-				<a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
-			</div>
-		</div>
-	</div>
-    <div class="item">
-		<div class="card pmd-card">
-			<!-- Card Media -->
-			<div class="pmd-card-media">
-				<img src="{{ asset('frontend/stotra/hanuman2.jpg') }}" width="1184" height="666" class="img-fluid">
-			</div>
-			
-			<!-- Card Body -->
-			<div class="card-body">
-				<h5 class="card-title">॥ हनुमान वडवानल स्त्रोत ॥</h5>
-				
-			</div>
-			
-			<!-- Card Footer -->
-			<div class="card-footer">
-				<a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
-			</div>
-		</div>
-	</div>
-    <div class="item">
-		<div class="card pmd-card">
-			<!-- Card Media -->
-			<div class="pmd-card-media">
-				<img src="{{ asset('frontend/stotra/bhavani_maa.jpg') }}" width="1184" height="666" class="img-fluid">
-			</div>
-			
-			<!-- Card Body -->
-			<div class="card-body">
-				<h5 class="card-title">॥ भवानी अष्टकम ॥</h5>
-				
-			</div>
-			
-			<!-- Card Footer -->
-			<div class="card-footer">
-				<a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
-			</div>
-		</div>
-	</div>
-    <div class="item">
-		<div class="card pmd-card">
-			<!-- Card Media -->
-			<div class="pmd-card-media">
-				<img src="{{ asset('frontend/stotra/navgraha.jpg') }}" width="1184" height="666" class="img-fluid">
-			</div>
-			
-			<!-- Card Body -->
-			<div class="card-body">
-				<h5 class="card-title">॥ नवग्रह स्तोत्र ॥</h5>
-				
-			</div>
-			
-			<!-- Card Footer -->
-			<div class="card-footer">
-				<a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
-			</div>
-		</div>
-	</div>
-    <div class="item">
-		<div class="card pmd-card">
-			<!-- Card Media -->
-			<div class="pmd-card-media">
-				<img src="{{ asset('frontend/stotra/mahadev3.jpg') }}" width="1184" height="666" class="img-fluid">
-			</div>
-			
-			<!-- Card Body -->
-			<div class="card-body">
-				<h5 class="card-title">॥ निर्वाणषट्कम् ॥</h5>
-				
-			</div>
-			
-			<!-- Card Footer -->
-			<div class="card-footer">
-				<a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
-			</div>
-		</div>
-	</div>
-</div>
+    <!-- =========================== stotra =================================-->
+    <div id="autoplay-carousel" class="autoplay-carousel owl-carousel pmd-card-carousel owl-theme text-center"
+        style="background-color: rgb(7,39,60);">
+        <div class="item">
+            <div class="card pmd-card">
+                <!-- Card Media -->
+                <div class="pmd-card-media">
+                    <img src="{{ asset('frontend/stotra/ganpati.jpg') }}" width="1184" height="666"
+                        class="img-fluid">
+                </div>
+
+                <!-- Card Body -->
+                <div class="card-body">
+                    <h5 class="card-title">॥ श्री गणेश स्तोत्र ॥</h5>
+
+                </div>
+
+                <!-- Card Footer -->
+                <div>
+                    <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#ganesh">Read
+                        More</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="item">
+            <div class="card pmd-card">
+                <!-- Card Media -->
+                <div class="pmd-card-media">
+                    <img src="{{ asset('frontend/stotra/mahadev.jpg') }}" width="1184" height="666"
+                        class="img-fluid">
+                </div>
+
+                <!-- Card Body -->
+                <div class="card-body">
+                    <h5 class="card-title">॥ श्रीरुद्राष्टकम् ॥</h5>
+
+                </div>
+
+                <!-- Card Footer -->
+                <div>
+                    <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#rudra">Read
+                        More</button>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card pmd-card">
+                <!-- Card Media -->
+                <div class="pmd-card-media">
+                    <img src="{{ asset('frontend/stotra/hanuman1.jpg') }}" width="1184" height="666"
+                        class="img-fluid">
+                </div>
+
+                <!-- Card Body -->
+                <div class="card-body">
+                    <h5 class="card-title">॥ हनुमान चालीसा ॥</h5>
+
+                </div>
+
+                <!-- Card Footer -->
+                <div>
+                    <button class="button-21" role="button" data-bs-toggle="modal"
+                        data-bs-target="#hanuman_chalisa">Read
+                        More</button>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card pmd-card">
+                <!-- Card Media -->
+                <div class="pmd-card-media">
+                    <img src="{{ asset('frontend/stotra/mahalaxmi.jpg') }}" width="1184" height="666"
+                        class="img-fluid">
+                </div>
+
+                <!-- Card Body -->
+                <div class="card-body">
+                    <h5 class="card-title">॥ श्री महालक्ष्म्यष्टकम् ॥</h5>
+
+                </div>
+
+                <!-- Card Footer -->
+                <div>
+                    <button class="button-21" role="button" data-bs-toggle="modal"
+                        data-bs-target="#mahalakshmi">Read
+                        More</button>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card pmd-card">
+                <!-- Card Media -->
+                <div class="pmd-card-media">
+                    <img src="{{ asset('frontend/stotra/kaal_bhairav.jpg') }}" width="1184" height="666"
+                        class="img-fluid">
+                </div>
+
+                <!-- Card Body -->
+                <div class="card-body">
+                    <h5 class="card-title">॥ काल भैरव अष्टक ॥</h5>
+
+                </div>
+
+                <!-- Card Footer -->
+                <div>
+                    <button class="button-21" role="button" data-bs-toggle="modal"
+                        data-bs-target="#kalbhairav">Read
+                        More</button>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card pmd-card">
+                <!-- Card Media -->
+                <div class="pmd-card-media">
+                    <img src="{{ asset('frontend/stotra/aditya_suryadev.jpg') }}" width="1184" height="666"
+                        class="img-fluid">
+                </div>
+
+                <!-- Card Body -->
+                <div class="card-body">
+                    <h5 class="card-title">॥ आदित्य हृदयस्तोत्र ॥</h5>
+
+                </div>
+
+                <!-- Card Footer -->
+                <div class="card-footer">
+                    <button class="button-21" role="button" data-bs-toggle="modal"
+                    data-bs-target="#aaditya">Read
+                    More</button>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card pmd-card">
+                <!-- Card Media -->
+                <div class="pmd-card-media">
+                    <img src="{{ asset('frontend/stotra/mahadev2.jpg') }}" width="1184" height="666"
+                        class="img-fluid">
+                </div>
+
+                <!-- Card Body -->
+                <div class="card-body">
+                    <h5 class="card-title">॥ दारिद्र्य दहन शिवस्तोत्रं ॥</h5>
+
+                </div>
+
+                <!-- Card Footer -->
+                <div class="card-footer">
+                    <a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary"
+                        href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card pmd-card">
+                <!-- Card Media -->
+                <div class="pmd-card-media">
+                    <img src="{{ asset('frontend/stotra/hanuman2.jpg') }}" width="1184" height="666"
+                        class="img-fluid">
+                </div>
+
+                <!-- Card Body -->
+                <div class="card-body">
+                    <h5 class="card-title">॥ हनुमान वडवानल स्त्रोत ॥</h5>
+
+                </div>
+
+                <!-- Card Footer -->
+                <div class="card-footer">
+                    <a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary"
+                        href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card pmd-card">
+                <!-- Card Media -->
+                <div class="pmd-card-media">
+                    <img src="{{ asset('frontend/stotra/bhavani_maa.jpg') }}" width="1184" height="666"
+                        class="img-fluid">
+                </div>
+
+                <!-- Card Body -->
+                <div class="card-body">
+                    <h5 class="card-title">॥ भवानी अष्टकम ॥</h5>
+
+                </div>
+
+                <!-- Card Footer -->
+                <div class="card-footer">
+                    <a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary"
+                        href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card pmd-card">
+                <!-- Card Media -->
+                <div class="pmd-card-media">
+                    <img src="{{ asset('frontend/stotra/navgraha.jpg') }}" width="1184" height="666"
+                        class="img-fluid">
+                </div>
+
+                <!-- Card Body -->
+                <div class="card-body">
+                    <h5 class="card-title">॥ नवग्रह स्तोत्र ॥</h5>
+
+                </div>
+
+                <!-- Card Footer -->
+                <div class="card-footer">
+                    <a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary"
+                        href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card pmd-card">
+                <!-- Card Media -->
+                <div class="pmd-card-media">
+                    <img src="{{ asset('frontend/stotra/mahadev3.jpg') }}" width="1184" height="666"
+                        class="img-fluid">
+                </div>
+
+                <!-- Card Body -->
+                <div class="card-body">
+                    <h5 class="card-title">॥ निर्वाणषट्कम् ॥</h5>
+
+                </div>
+
+                <!-- Card Footer -->
+                <div class="card-footer">
+                    <a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary"
+                        href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="modal fade" id="ganesh">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">॥ श्री गणेश स्तोत्र ॥</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <img class="img-fluid" src="{{ asset('frontend/stotra/ganesh.jpg') }}" alt="">
+
+
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <a href="{{ asset('frontend/stotra/ganesh.jpg') }}" Download="test_image">
+                        <button type="button" class="btn btn-danger" src="" download>Download</button>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="rudra">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">॥ श्रीरुद्राष्टकम् ॥</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <img class="img-fluid" src="{{ asset('frontend/stotra/rudra.jpg') }}" alt="">
+
+
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <a href="{{ asset('frontend/stotra/rudra.jpg') }}" Download="test_image">
+                        <button type="button" class="btn btn-danger" src="" download>Download</button>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="hanuman_chalisa">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">॥ हनुमान चालीसा ॥</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col">
+                            <img class="img-fluid" src="{{ asset('frontend/stotra/hanuman_chalisa-1.jpg') }}"
+                                alt="">
+                            <div class="text-center mt-2">
+                                <a href="{{ asset('frontend/stotra/hanuman_chalisa-1.jpg') }}" download="hanuman_chalisa-1.jpg"
+                                    class="btn btn-danger">Download </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid" src="{{ asset('frontend/stotra/hanuman_chalisa-2.jpg') }}"
+                                alt="">
+                            <div class="text-center mt-2">
+                                <a href="{{ asset('frontend/stotra/hanuman_chalisa-2.jpg') }}" download="hanuman_chalisa-2.jpg"
+                                    class="btn btn-danger">Download </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <!-- Add any footer content you need -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="mahalakshmi">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">॥ श्री महालक्ष्म्यष्टकम् ॥</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <img class="img-fluid" src="{{ asset('frontend/stotra/mahalakshmi.jpg') }}" alt="">
+
+
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <a href="{{ asset('frontend/stotra/mahalakshmi.jpg') }}" Download="test_image">
+                        <button type="button" class="btn btn-danger" src="" download>Download</button>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="kalbhairav">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">॥ काल भैरव अष्टक ॥</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <img class="img-fluid" src="{{ asset('frontend/stotra/kalbhairav.jpg') }}" alt="">
+
+
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <a href="{{ asset('frontend/stotra/kalbhairav.jpg') }}" Download="test_image">
+                        <button type="button" class="btn btn-danger" src="" download>Download</button>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="aaditya">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">॥ आदित्य हृदयस्तोत्र ॥</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col">
+                            <img class="img-fluid" src="{{ asset('frontend/stotra/aaditya-1.jpg') }}"
+                                alt="">
+                            <div class="text-center mt-2">
+                                <a href="{{ asset('frontend/stotra/aaditya-1.jpg') }}" download="hanuman_chalisa-1.jpg"
+                                    class="btn btn-danger">Download </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid" src="{{ asset('frontend/stotra/aaditya-2.jpg') }}"
+                                alt="">
+                            <div class="text-center mt-2">
+                                <a href="{{ asset('frontend/stotra/ganesh.jpg') }}" download="aaditya-2.jpg"
+                                    class="btn btn-danger">Download </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <!-- Add any footer content you need -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
 
     <!--end zodiac sign -->
 
@@ -2391,6 +2621,7 @@
             document.getElementById("div_more").style.display = "block";
             document.getElementById("div_less").style.display = "none";
         }
+
         function more1() {
             document.getElementById("row2").style.display = "flex";
             document.getElementById("for_more").style.display = "none";
@@ -2404,38 +2635,39 @@
         }
     </script>
     <!-- Jquery js -->
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
-<!-- Owl Carousel js -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <!-- Owl Carousel js -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
+    </script>
 
-<script>
-/* autoplay js*/
-var owl = $('#autoplay-carousel');
-owl.owlCarousel({
-	items:3,
-	dots:false,
-	loop:true,
-	autoplay:true,
-	autoplayTimeout:2000,
-	autoplayHoverPause:true,
-	responsive:{
-		0:{
-			items:1
-		},
-		600:{
-			items:3
-		},
-		1000:{
-			items:4
-		}
-	}
-});
-$('.play').on('click',function(){
-	owl.trigger('play.owl.autoplay',[1000])
-})
-$('.stop').on('click',function(){
-	owl.trigger('stop.owl.autoplay')
-});
-</script>
+    <script>
+        /* autoplay js*/
+        var owl = $('#autoplay-carousel');
+        owl.owlCarousel({
+            items: 3,
+            dots: false,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        });
+        $('.play').on('click', function() {
+            owl.trigger('play.owl.autoplay', [1000])
+        })
+        $('.stop').on('click', function() {
+            owl.trigger('stop.owl.autoplay')
+        });
+    </script>
 @endsection
