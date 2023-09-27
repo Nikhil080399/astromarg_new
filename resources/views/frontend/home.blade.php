@@ -1346,7 +1346,6 @@
         </div>
     </div>
 
-
     <!--========================================= Gemstones =========================================-->
     <div class="container-fluid" style="background-color: rgb(7,39,60)">
         <div class="twelve pt-5">
@@ -1954,25 +1953,10 @@
         <button class="btn btn-primary" onclick="less1();">View Less</button>
     </div>
 
-    <script>
-        function more1() {
-            document.getElementById("row2").style.display = "flex";
-            document.getElementById("for_more").style.display = "none";
-            document.getElementById("for_less").style.display = "block";
-
-        }
-
-        function less1() {
-            document.getElementById("row2").style.display = "none";
-            document.getElementById("for_more").style.display = "block";
-            document.getElementById("for_less").style.display = "none";
-        }
-    </script>
+    
 
 
-
-
-    {{-- slider end --}}
+    // {{-- slider end --}}
 
 
 
@@ -2425,6 +2409,17 @@
             document.getElementById("2nd_row").style.display = "none";
             document.getElementById("div_more").style.display = "block";
             document.getElementById("div_less").style.display = "none";
+        }
+        function more1() {
+            document.getElementById("row2").style.display = "flex";
+            document.getElementById("for_more").style.display = "none";
+            document.getElementById("for_less").style.display = "block";
+        }
+
+        function less1() {
+            document.getElementById("row2").style.display = "none";
+            document.getElementById("for_more").style.display = "block";
+            document.getElementById("for_less").style.display = "none";
         }
     </script>
 @endsection
