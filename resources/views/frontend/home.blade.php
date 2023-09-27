@@ -32,6 +32,9 @@
         .card h5 {
             color: white;
         }
+        .card h5 {
+            color: white;
+        }
 
         .row {
             display: flex;
@@ -49,7 +52,11 @@
             flex: 1 1 200px;
             margin: 10px;
             display: none;
+            
 
+        }
+        .pmd-card-media img{
+            height: 10rem;
         }
 
         .card:nth-child(1) {
@@ -1989,7 +1996,7 @@
 
     {{-- slider end --}}
 
-    <section class="vishes">
+    {{-- <section class="vishes">
         <div class="conatiner" data-aos="fade-up">
             <div class="text-center m-4">
                 <h1 class="text-white">Astro<span style="color:#ff4a17; font-weight:600"> Services: </span></h1>
@@ -2056,10 +2063,10 @@
             </div>
         </div>
 
-    </section>
+    </section> --}}
     <!--start zodiac sign -->
-   <!-- Carousel with Navigation -->
-<div id="autoplay-carousel" class="autoplay-carousel owl-carousel pmd-card-carousel owl-theme text-center">
+   <!-- =========================== stotra =================================-->
+<div id="autoplay-carousel" class="autoplay-carousel owl-carousel pmd-card-carousel owl-theme text-center" style="background-color: rgb(7,39,60);">
 	<div class="item">
 		<div class="card pmd-card">
 			<!-- Card Media -->
@@ -2069,7 +2076,7 @@
 			
 			<!-- Card Body -->
 			<div class="card-body">
-				<h2 class="card-title">॥ श्री गणेशायनमः ॥</h2>
+				<h5 class="card-title">॥ श्री गणेश स्तोत्र ॥</h5>
 				
 			</div>
 			
@@ -2088,7 +2095,7 @@
 			
 			<!-- Card Body -->
 			<div class="card-body">
-				<h2 class="card-title">॥ श्रीरुद्राष्टकम् ॥</h2>
+				<h5 class="card-title">॥ श्रीरुद्राष्टकम् ॥</h5>
 				
 			</div>
 			
@@ -2107,7 +2114,7 @@
 			
 			<!-- Card Body -->
 			<div class="card-body">
-				<h2 class="card-title">॥ हनुमान चालीसा ॥</h2>
+				<h5 class="card-title">॥ हनुमान चालीसा ॥</h5>
 			
 			</div>
 			
@@ -2126,7 +2133,7 @@
 			
 			<!-- Card Body -->
 			<div class="card-body">
-				<h2 class="card-title">॥ श्री महालक्ष्म्यष्टकम् ॥</h2>
+				<h5 class="card-title">॥ श्री महालक्ष्म्यष्टकम् ॥</h5>
 				
 			</div>
 			
@@ -2145,7 +2152,7 @@
 			
 			<!-- Card Body -->
 			<div class="card-body">
-				<h2 class="card-title">॥ काल भैरव अष्टक ॥</h2>
+				<h5 class="card-title">॥ काल भैरव अष्टक ॥</h5>
 				
 			</div>
 			
@@ -2164,7 +2171,7 @@
 			
 			<!-- Card Body -->
 			<div class="card-body">
-				<h2 class="card-title">॥ आदित्य हृदयस्तोत्र ॥</h2>
+				<h5 class="card-title">॥ आदित्य हृदयस्तोत्र ॥</h5>
 				
 			</div>
 			
@@ -2183,7 +2190,7 @@
 			
 			<!-- Card Body -->
 			<div class="card-body">
-				<h2 class="card-title">॥ दारिद्र्य दहन शिवस्तोत्रं ॥</h2>
+				<h5 class="card-title">॥ दारिद्र्य दहन शिवस्तोत्रं ॥</h5>
 				
 			</div>
 			
@@ -2202,7 +2209,64 @@
 			
 			<!-- Card Body -->
 			<div class="card-body">
-				<h2 class="card-title">॥ हनुमान वडवानल स्त्रोत ॥</h2>
+				<h5 class="card-title">॥ हनुमान वडवानल स्त्रोत ॥</h5>
+				
+			</div>
+			
+			<!-- Card Footer -->
+			<div class="card-footer">
+				<a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
+			</div>
+		</div>
+	</div>
+    <div class="item">
+		<div class="card pmd-card">
+			<!-- Card Media -->
+			<div class="pmd-card-media">
+				<img src="{{ asset('frontend/stotra/bhavani_maa.jpg') }}" width="1184" height="666" class="img-fluid">
+			</div>
+			
+			<!-- Card Body -->
+			<div class="card-body">
+				<h5 class="card-title">॥ भवानी अष्टकम ॥</h5>
+				
+			</div>
+			
+			<!-- Card Footer -->
+			<div class="card-footer">
+				<a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
+			</div>
+		</div>
+	</div>
+    <div class="item">
+		<div class="card pmd-card">
+			<!-- Card Media -->
+			<div class="pmd-card-media">
+				<img src="{{ asset('frontend/stotra/navgraha.jpg') }}" width="1184" height="666" class="img-fluid">
+			</div>
+			
+			<!-- Card Body -->
+			<div class="card-body">
+				<h5 class="card-title">॥ नवग्रह स्तोत्र ॥</h5>
+				
+			</div>
+			
+			<!-- Card Footer -->
+			<div class="card-footer">
+				<a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
+			</div>
+		</div>
+	</div>
+    <div class="item">
+		<div class="card pmd-card">
+			<!-- Card Media -->
+			<div class="pmd-card-media">
+				<img src="{{ asset('frontend/stotra/mahadev3.jpg') }}" width="1184" height="666" class="img-fluid">
+			</div>
+			
+			<!-- Card Body -->
+			<div class="card-body">
+				<h5 class="card-title">॥ निर्वाणषट्कम् ॥</h5>
 				
 			</div>
 			
