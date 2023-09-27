@@ -187,6 +187,21 @@
             width: 75px;
             margin-bottom: 0.25em;
         }
+
+        /* Bootstrap css */
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css";
+
+/* Google Material Icons */
+@import "http://fonts.googleapis.com/icon?family=Material+Icons";
+
+/* Propeller CSS */
+@import "dist/css/propeller.min.css";
+
+/* Owl Carousel CSS */
+@import "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css";
+
+/* Propeller Carousel */
+@import "carousel/css/pmd-carousel.css";
     </style>
 
 
@@ -234,11 +249,11 @@
 
                         <!-- Left and right controls -->
                         <!-- <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                                                                    <span class="carousel-control-prev-icon"></span>
-                                                                  </a>
-                                                                  <a class="carousel-control-next" href="#demo" data-slide="next">
-                                                                    <span class="carousel-control-next-icon"></span>
-                                                                  </a> -->
+                                                                        <span class="carousel-control-prev-icon"></span>
+                                                                      </a>
+                                                                      <a class="carousel-control-next" href="#demo" data-slide="next">
+                                                                        <span class="carousel-control-next-icon"></span>
+                                                                      </a> -->
 
                     </div>
                 </div>
@@ -1959,7 +1974,6 @@
             document.getElementById("row2").style.display = "flex";
             document.getElementById("for_more").style.display = "none";
             document.getElementById("for_less").style.display = "block";
-
         }
 
         function less1() {
@@ -1969,15 +1983,7 @@
         }
     </script>
 
-
-
-
     {{-- slider end --}}
-
-
-
-
-
     <section class="vishes">
         <div class="conatiner" data-aos="fade-up">
             <div class="text-center m-4">
@@ -2046,270 +2052,163 @@
         </div>
 
     </section>
-
-
-
     <!--start zodiac sign -->
-    <section class="zodiac">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xl-12 col-lg-12 col-12">
-                    <div class="text-center m-4">
-                        <h1 class="text-center text-white">Choose <span style="color:#ff4a17; font-weight:600">
-                                Zodiac
-                                sign</span></h1>
-                        <p class="text-justify text-center text-white">A horoscope is used to provide information
-                            about
-                            the present and to predict events to come.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row ">
-                <div class="col-lg-3 col-md-12 col-xl-3 col-12 ">
-                    <ul class="zodiaclist">
-                        <li>
-                            <a class="" href="#">
-                                <div class="sign">
-                                    <div class="aries">
-                                        <div class="row">
-                                            <div class="col-lg-4 sleft">
-                                                <img src="{{ asset('frontend/assets/image/s1.png') }}"
-                                                    class="img-fluid">
-                                            </div>
-                                            <div class="col-lg-8 sright">
-                                                <h5>Aries</h5>
-                                                <p>Mar 21 - Apr 19</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
+   <!-- Carousel with Navigation -->
+<div id="autoplay-carousel" class="autoplay-carousel owl-carousel pmd-card-carousel owl-theme text-center">
+	<div class="item">
+		<div class="card pmd-card">
+			<!-- Card Media -->
+			<div class="pmd-card-media">
+				<img src="https://pro.propeller.in/assets/images/card-image-1.jpg" width="1184" height="666" class="img-fluid">
+			</div>
+			
+			<!-- Card Body -->
+			<div class="card-body">
+				<h2 class="card-title">Jhon Doe</h2>
+				
+			</div>
+			
+			<!-- Card Footer -->
+			<div class="card-footer">
+				<a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+		<div class="card pmd-card">
+			<!-- Card Media -->
+			<div class="pmd-card-media">
+				<img src="https://pro.propeller.in/assets/images/card-image-2.jpg" width="1184" height="666" class="img-fluid">
+			</div>
+			
+			<!-- Card Body -->
+			<div class="card-body">
+				<h2 class="card-title">Jude Antony</h2>
+				
+			</div>
+			
+			<!-- Card Footer -->
+			<div class="card-footer">
+                <a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+		<div class="card pmd-card">
+			<!-- Card Media -->
+			<div class="pmd-card-media">
+				<img src="https://pro.propeller.in/assets/images/card-image-3.jpg" width="1184" height="666" class="img-fluid">
+			</div>
+			
+			<!-- Card Body -->
+			<div class="card-body">
+				<h2 class="card-title">Jason Bourne</h2>
+			
+			</div>
+			
+			<!-- Card Footer -->
+			<div class="card-footer">
+				<a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+		<div class="card pmd-card">
+			<!-- Card Media -->
+			<div class="pmd-card-media">
+				<img src="https://pro.propeller.in/assets/images/card-image-4.jpg" width="1184" height="666" class="img-fluid">
+			</div>
+			
+			<!-- Card Body -->
+			<div class="card-body">
+				<h2 class="card-title">Jonathan Miller</h2>
+				
+			</div>
+			
+			<!-- Card Footer -->
+			<div class="card-footer">
+                <a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+		<div class="card pmd-card">
+			<!-- Card Media -->
+			<div class="pmd-card-media">
+				<img src="https://pro.propeller.in/assets/images/card-image-5.jpg" width="1184" height="666" class="img-fluid">
+			</div>
+			
+			<!-- Card Body -->
+			<div class="card-body">
+				<h2 class="card-title">Jhon Miller</h2>
+				
+			</div>
+			
+			<!-- Card Footer -->
+			<div class="card-footer">
+                <a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
+			</div>
+		</div>
+	</div>
+	<div class="item">
+		<div class="card pmd-card">
+			<!-- Card Media -->
+			<div class="pmd-card-media">
+				<img src="https://pro.propeller.in/assets/images/card-image-6.jpg" width="1184" height="666" class="img-fluid">
+			</div>
+			
+			<!-- Card Body -->
+			<div class="card-body">
+				<h2 class="card-title">Jane Anderson</h2>
+				
+			</div>
+			
+			<!-- Card Footer -->
+			<div class="card-footer">
+				<a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
+			</div>
+		</div>
+	</div>
+    <div class="item">
+		<div class="card pmd-card">
+			<!-- Card Media -->
+			<div class="pmd-card-media">
+				<img src="https://pro.propeller.in/assets/images/card-image-6.jpg" width="1184" height="666" class="img-fluid">
+			</div>
+			
+			<!-- Card Body -->
+			<div class="card-body">
+				<h2 class="card-title">Jane Anderson</h2>
+				
+			</div>
+			
+			<!-- Card Footer -->
+			<div class="card-footer">
+				<a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
+			</div>
+		</div>
+	</div>
+    <div class="item">
+		<div class="card pmd-card">
+			<!-- Card Media -->
+			<div class="pmd-card-media">
+				<img src="https://pro.propeller.in/assets/images/card-image-6.jpg" width="1184" height="666" class="img-fluid">
+			</div>
+			
+			<!-- Card Body -->
+			<div class="card-body">
+				<h2 class="card-title">Jane Anderson</h2>
+				
+			</div>
+			
+			<!-- Card Footer -->
+			<div class="card-footer">
+				<a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
+			</div>
+		</div>
+	</div>
+</div>
 
-                        <li>
-                            <a class="" href="#">
-                                <div class="sign">
-                                    <div class="Taurus">
-                                        <div class="row">
-                                            <div class="col-lg-4 sleft"><img
-                                                    src="{{ asset('frontend/assets/image/s2.png') }}"
-                                                    class="img-fluid">
-                                            </div>
-                                            <div class="col-lg-8 sright">
-                                                <h5>Taurus</h5>
-                                                <p>Mar 21 - Apr 19</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="" href="#">
-                                <div class="sign ">
-                                    <div class="Gemini">
-                                        <div class="row">
-                                            <div class="col-lg-4 sleft"><img
-                                                    src="{{ asset('frontend/assets/image/s3.png') }}"
-                                                    class="img-fluid">
-                                            </div>
-                                            <div class="col-lg-8 sright">
-                                                <h5> Gemini</h5>
-                                                <p>Mar 21 - Apr 19</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="" href="#">
-                                <div class="sign">
-                                    <div class="Cancer">
-                                        <div class="row">
-                                            <div class="col-lg-4 sleft"><img
-                                                    src="{{ asset('frontend/assets/image/s4.png') }}"
-                                                    class="img-fluid">
-                                            </div>
-                                            <div class="col-lg-8 sright">
-                                                <h5>Cancer</h5>
-                                                <p>Mar 21 - Apr 19</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="" href="#">
-                                <div class="sign ">
-                                    <div class="Leo">
-                                        <div class="row">
-                                            <div class="col-lg-4 sleft"><img
-                                                    src="{{ asset('frontend/assets/image/s5.png') }}"
-                                                    class="img-fluid">
-                                            </div>
-                                            <div class="col-lg-8 sright">
-                                                <h5>Leo</h5>
-                                                <p>Mar 21 - Apr 19</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="" href="#">
-                                <div class="sign ">
-                                    <div class="Vigro">
-                                        <div class="row">
-                                            <div class="col-lg-4 sleft"><img
-                                                    src="{{ asset('frontend/assets/image/s6.png') }}"
-                                                    class="img-fluid">
-                                            </div>
-                                            <div class="col-lg-8 sright ">
-                                                <h5>Vigro</h5>
-                                                <p>Mar 21 - Apr 19</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-6 col-md-12 col-xl-6 col-sm-12 col-12 middle ">
-                    <div class=" text-center mt-5"> <img class="spinner1"
-                            src="{{ asset('frontend/assets/image/horoscope.png') }}" width="60%"
-                            class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-12 col-xl-3 col-sm-12 col-12 ">
-                    <ul class="zodiaclist">
-                        <li>
-                            <a class="" href="#">
-                                <div class="sign ">
-                                    <div class="Libra">
-                                        <div class="row">
-                                            <div class="col-lg-4 sleft"><img
-                                                    src="{{ asset('frontend/assets/image/s7.png') }}"
-                                                    class="img-fluid">
-                                            </div>
-                                            <div class="col-lg-8 sright">
-                                                <h5>Libra</h5>
-                                                <p>Mar 21 - Apr 19</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="" href="#">
-                                <div class="sign ">
-                                    <div class="Scorpio">
-                                        <div class="row">
-                                            <div class="col-lg-4 sleft"><img
-                                                    src="{{ asset('frontend/assets/image/s8.png') }}"
-                                                    class="img-fluid">
-                                            </div>
-                                            <div class="col-lg-8 sright">
-                                                <h5>Scorpio</h5>
-                                                <p>Mar 21 - Apr 19</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="" href="#">
-                                <div class="sign ">
-                                    <div class="Sagittairus">
-                                        <div class="row">
-                                            <div class="col-lg-4 sleft"><img
-                                                    src="{{ asset('frontend/assets/image/s9.png') }}"
-                                                    class="img-fluid">
-                                            </div>
-                                            <div class="col-lg-8 sright">
-                                                <h5>Sagittairus</h5>
-                                                <p>Mar 21 - Apr 19</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="" href="#">
-                                <div class="sign ">
-                                    <div class="Capricorn">
-                                        <div class="row">
-                                            <div class="col-lg-4 sleft"><img
-                                                    src="{{ asset('frontend/assets/image/s10.pn') }}g"
-                                                    class="img-fluid">
-                                            </div>
-                                            <div class="col-lg-8 sright">
-                                                <h5>Capricorn</h5>
-                                                <p>Mar 21 - Apr 19</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="" href="#">
-                                <div class="sign ">
-                                    <div class="Aquarius">
-                                        <div class="row">
-                                            <div class="col-lg-4 sleft"><img
-                                                    src="{{ asset('frontend/assets/image/s11.pn') }}g"
-                                                    class="img-fluid">
-                                            </div>
-                                            <div class="col-lg-8 sright">
-                                                <h5>Aquarius</h5>
-                                                <p>Mar 21 - Apr 19</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="" href="#">
-                                <div class="sign">
-                                    <div class="Pisces">
-                                        <div class="row">
-                                            <div class="col-lg-4 sleft"><img
-                                                    src="{{ asset('frontend/assets/image/s12.pn') }}g"
-                                                    class="img-fluid">
-                                            </div>
-                                            <div class="col-lg-8 sright">
-                                                <h5>Pisces</h5>
-                                                <p>Mar 21 - Apr 19</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
     <!--end zodiac sign -->
 
     <!-- our expert -->
@@ -2411,9 +2310,6 @@
 
     </section><!-- End Testimonials Section -->
 
-
-
-
     <script>
         function more() {
             document.getElementById("2nd_row").style.display = "flex";
@@ -2427,4 +2323,39 @@
             document.getElementById("div_less").style.display = "none";
         }
     </script>
+    <!-- Jquery js -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<!-- Owl Carousel js -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+
+<script>
+/* autoplay js*/
+var owl = $('#autoplay-carousel');
+owl.owlCarousel({
+	items:3,
+	dots:false,
+	loop:true,
+	autoplay:true,
+	autoplayTimeout:2000,
+	autoplayHoverPause:true,
+	responsive:{
+		0:{
+			items:1
+		},
+		600:{
+			items:3
+		},
+		1000:{
+			items:4
+		}
+	}
+});
+$('.play').on('click',function(){
+	owl.trigger('play.owl.autoplay',[1000])
+})
+$('.stop').on('click',function(){
+	owl.trigger('stop.owl.autoplay')
+});
+</script>
 @endsection
