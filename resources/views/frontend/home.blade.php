@@ -32,9 +32,6 @@
         .card h5 {
             color: white;
         }
-        .card h5 {
-            color: white;
-        }
 
         .row {
             display: flex;
@@ -52,10 +49,17 @@
             flex: 1 1 200px;
             margin: 10px;
             display: none;
-
-
+            position: relative;
         }
 
+        .footer {
+            position: absolute;
+            bottom: 0%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+      
         .pmd-card-media img {
             height: 15rem;
         }
@@ -106,7 +110,7 @@
             box-sizing: border-box;
             color: #FFFFFF;
             cursor: pointer;
-            display: inline-flex;
+            /* display: inline-flex; */
             font-family: CircularStd, sans-serif;
             font-size: 1rem;
             height: auto;
@@ -122,6 +126,7 @@
             touch-action: manipulation;
             vertical-align: top;
             white-space: nowrap;
+
         }
 
         .button-21:active,
@@ -208,8 +213,8 @@
         /* Owl Carousel CSS */
         @import "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css";
 
-/* Propeller Carousel */
-@import "carousel/css/pmd-carousel.css";
+        /* Propeller Carousel */
+        @import "carousel/css/pmd-carousel.css";
     </style>
 
 
@@ -257,11 +262,11 @@
 
                         <!-- Left and right controls -->
                         <!-- <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                                                                        <span class="carousel-control-prev-icon"></span>
-                                                                      </a>
-                                                                      <a class="carousel-control-next" href="#demo" data-slide="next">
-                                                                        <span class="carousel-control-next-icon"></span>
-                                                                      </a> -->
+                                                                                    <span class="carousel-control-prev-icon"></span>
+                                                                                  </a>
+                                                                                  <a class="carousel-control-next" href="#demo" data-slide="next">
+                                                                                    <span class="carousel-control-next-icon"></span>
+                                                                                  </a> -->
 
                     </div>
                 </div>
@@ -289,18 +294,21 @@
             <!--=========================== One Mukhi Rudraksha ==============================-->
 
             <div class="col-md-6 col-lg-3 col-sm-12 mb-4">
-                <div class="card ">
+                <div class="card text-center">
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/one mukhi.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">One Mukhi Rudraksha</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
-                    <p>One Mukhi Rudraksha represents Lord Shiva himself and symbolizes the attainment of the godhood,
-                        supreme truth and super consciousness.</p>
-                    <div>
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">One Mukhi Rudraksha</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                        <p>One Mukhi Rudraksha represents Lord Shiva himself and symbolizes the attainment of the godhood,
+                            supreme truth and super consciousness.</p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#myModal_1">Read
                             More</button>
                     </div>
+
                 </div>
 
 
@@ -341,11 +349,12 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/two mukhi.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Two Mukhi Rudraksha</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
-
-                    <p>Two Mukhi Rudraksha harbors immense mystical powers and controls the bad effects of Moon.</p>
-                    <div>
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Two Mukhi Rudraksha</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                        <p>Two Mukhi Rudraksha harbors immense mystical powers and controls the bad effects of Moon.</p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#myModal_2">Read
                             More</button>
                     </div>
@@ -388,15 +397,15 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/three mukhi.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Three Mukhi Rudraksha</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
-
-                    <p>Three Mukhi Rudraksha beads are round or oval in shape with three lines or faces.</p>
-                    <div>
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Three Mukhi Rudraksha</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                        <p>Three Mukhi Rudraksha beads are round or oval in shape with three lines or faces.</p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#myModal_3">Read
                             More</button>
                     </div>
-
                 </div>
             </div>
             <!-- The Modal -->
@@ -436,14 +445,17 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/four mukhi.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Four Mukhi Rudraksha</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Four Mukhi Rudraksha</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
 
-                    <p>Four Mukhi Rudraksha symbolizes Lord Brahma and is also called Brahma Rupam or Chaturanan.</p>
-                    <div>
+                        <p>Four Mukhi Rudraksha symbolizes Lord Brahma and is also called Brahma Rupam or Chaturanan.</p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#myModal_4">Read
                             More</button>
                     </div>
+
 
                 </div>
             </div>
@@ -486,12 +498,14 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/five mukhi.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Five Mukhi Rudraksha</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Five Mukhi Rudraksha</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
 
-                    <p>Five Mukhi Rudraksha symbolizes Pancheswar and also represents another form of Shiva- KaalAgni.
-                    </p>
-                    <div>
+                        <p>Five Mukhi Rudraksha symbolizes Pancheswar and also represents another form of Shiva- KaalAgni.
+                        </p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#myModal_5">Read
                             More</button>
                     </div>
@@ -536,15 +550,18 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/six mukhi.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Six Mukhi Rudraksha</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Six Mukhi Rudraksha</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
 
-                    <p>Six Mukhi Rudraksha symbolizes Lord Shiva's second son Kumar Kartikeya and impacts
-                        learning,wisdom, knowledge and an increase in an individual's will power.</p>
-                    <div>
+                        <p>Six Mukhi Rudraksha symbolizes Lord Shiva's second son Kumar Kartikeya and impacts
+                            learning,wisdom, knowledge and an increase in an individual's will power.</p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#myModal_6">Read
                             More</button>
                     </div>
+
 
                 </div>
             </div>
@@ -586,15 +603,18 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/seven mukhi.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Seven Mukhi Rudraksha</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Seven Mukhi Rudraksha</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
 
-                    <p>Seven Mukhi Rudraksha represents the Godess Mahalaxmi, ruled by the planet Saturn and has a life
-                        of a thousands year if well taken care of.</p>
-                    <div>
+                        <p>Seven Mukhi Rudraksha represents the Godess Mahalaxmi, ruled by the planet Saturn and has a life
+                            of a thousands year if well taken care of.</p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#myModal_7">Read
                             More</button>
                     </div>
+
 
                 </div>
             </div>
@@ -634,13 +654,15 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/eight mukhi.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Eight Mukhi Rudraksha</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Eight Mukhi Rudraksha</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
 
-                    <p>Eight Mukhi Rudraksha is the reflection of Lord Ganesha, Lord Shiva's second son who is
-                        worshipped before all the other gods its wearer becomes unaffected by all miseries- physical or
-                        mental.</p>
-                    <div>
+                        <p>Eight Mukhi Rudraksha is the reflection of Lord Ganesha, Lord Shiva's second son who is
+                            worshipped before all the other gods its wearer becomes unaffected by all miseries- physical or
+                            mental.</p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#myModal_8">Read
                             More</button>
                     </div>
@@ -684,14 +706,17 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/nine mukhi.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Nine Mukhi Rudraksha</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
-                    <p>Nine Mukhi Rudraksha is the form of Godess Durga (Shakti). It contains the power of Nine Deities
-                        or NavDurga.</p>
-                    <div>
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Nine Mukhi Rudraksha</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                        <p>Nine Mukhi Rudraksha is the form of Godess Durga (Shakti). It contains the power of Nine Deities
+                            or NavDurga.</p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#myModal_9">Read
                             More</button>
                     </div>
+
                 </div>
             </div>
             <!-- The Modal -->
@@ -730,16 +755,19 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/ten mukhi.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Ten Mukhi Rudraksha</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Ten Mukhi Rudraksha</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
 
-                    <p>Ten Mukhi Rudraksha is a symbol of Lord Vishnu who, according to Indian mythology, is the
-                        Preserver of this Universe.</p>
-                    <div>
+                        <p>Ten Mukhi Rudraksha is a symbol of Lord Vishnu who, according to Indian mythology, is the
+                            Preserver of this Universe.</p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal"
                             data-bs-target="#myModal_10">Read
                             More</button>
                     </div>
+
                 </div>
             </div>
             <!-- The Modal -->
@@ -778,17 +806,18 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/eleven mukhi.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Eleven Mukhi Rudraksha</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Eleven Mukhi Rudraksha</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
 
-                    <p>Vedic Scriptures state that Eleven Mukhi Rudraksha is the symbol of Ekadash Rudra(Eleven form of
-                        Lord Shiva).</p>
-                    <div>
+                        <p>Vedic Scriptures state that Eleven Mukhi Rudraksha is the symbol of Ekadash Rudra(Eleven form of
+                            Lord Shiva).</p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal"
                             data-bs-target="#myModal_11">Read
                             More</button>
                     </div>
-
                 </div>
             </div>
             <!-- The Modal -->
@@ -829,17 +858,18 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/twelve mukhi.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Twelve Mukhi Rudraksha</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Twelve Mukhi Rudraksha</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
 
-                    <p>Twelve Mukhi Rudraksha is the symbol of twelve virtues of Lord Sun. It is an embodiment of twelve
-                        facets of Lord Surya.</p>
-                    <div>
+                        <p>Twelve Mukhi Rudraksha is the symbol of twelve virtues of Lord Sun. It is an embodiment of twelve
+                            facets of Lord Surya.</p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal"
                             data-bs-target="#myModal_12">Read
                             More</button>
                     </div>
-
                 </div>
             </div>
             <!-- The Modal Body -->
@@ -879,17 +909,18 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/thirteen mukhi.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Thirteen Mukhi Rudraksha</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Thirteen Mukhi Rudraksha</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
 
-                    <p>Thirteen Mukhi Rudraksha represents Lord Indra (Lord of all gods). This Rudraksha fulfills all
-                        earthly desires and helps in attainment of eight Siddhis.</p>
-                    <div>
+                        <p>Thirteen Mukhi Rudraksha represents Lord Indra (Lord of all gods). This Rudraksha fulfills all
+                            earthly desires and helps in attainment of eight Siddhis.</p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal"
                             data-bs-target="#myModal_13">Read
                             More</button>
                     </div>
-
                 </div>
             </div>
             <!-- The Modal Body -->
@@ -928,12 +959,14 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/fourteen mukhi.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Fourteen Mukhi Rudraksha</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Fourteen Mukhi Rudraksha</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
 
-                    <p>Fourteen Mukhi Rudraksha is called the "Deva Mani"(precious divine thing) and is also one of the
-                        rarest Rudraksha to be found.</p>
-                    <div>
+                        <p>Fourteen Mukhi Rudraksha is called the "Deva Mani"(precious divine thing) and is also one of the
+                            rarest Rudraksha to be found.</p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal"
                             data-bs-target="#myModal_14">Read
                             More</button>
@@ -976,15 +1009,18 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/fifteen_mukhi.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Fifteen Mukhi Rudraksha</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style="border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Fifteen Mukhi Rudraksha</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style="border-top:solid #FF4A17 3px; opacity:0.6;">
 
-                    <p>Fifteen Mukhi Rudraksha is a rare Rudraksha bead and it represents Lord Pashupatinath.</p>
-                    <div>
+                        <p>Fifteen Mukhi Rudraksha is a rare Rudraksha bead and it represents Lord Pashupatinath.</p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal"
                             data-bs-target="#myModal_15">Read
                             More</button>
                     </div>
+
 
                 </div>
             </div>
@@ -1024,17 +1060,18 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/Sixteen_mukhi.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Sixteen Mukhi Rudraksha</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Sixteen Mukhi Rudraksha</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
 
-                    <p>Sixteen Mukhi Rudraksha is the combined form of Vishnu and Shiva and thus it represents victory.
-                    </p>
-                    <div>
+                        <p>Sixteen Mukhi Rudraksha is the combined form of Vishnu and Shiva and thus it represents victory.
+                        </p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal"
                             data-bs-target="#myModal_16">Read
                             More</button>
                     </div>
-
                 </div>
             </div>
             <!-- The Modal Body -->
@@ -1072,17 +1109,18 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/Seventeen_mukhi.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Seventeen Mukhi Rudraksha</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Seventeen Mukhi Rudraksha</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
 
-                    <p>Seventeen Mukhi Rudraksha represents Lord Vishvakarma, the builder of this materialistic world.
-                    </p>
-                    <div>
+                        <p>Seventeen Mukhi Rudraksha represents Lord Vishvakarma, the builder of this materialistic world.
+                        </p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal"
                             data-bs-target="#myModal_17">Read
                             More</button>
                     </div>
-
                 </div>
             </div>
             <!-- The Modal Body -->
@@ -1121,16 +1159,17 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/eighteen_mukhi.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Eighteen Mukhi Rudraksha</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Eighteen Mukhi Rudraksha</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
 
-                    <p>Eighteen Mukhi Rudraksha represents Mother Earth, who is the divine wife of Lord Vishnu.</p>
-                    <div>
+                        <p>Eighteen Mukhi Rudraksha represents Mother Earth, who is the divine wife of Lord Vishnu.</p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal"
                             data-bs-target="#myModal_18">Read
                             More</button>
                     </div>
-
                 </div>
             </div>
             <!-- The Modal Body -->
@@ -1169,17 +1208,18 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/Ganesh-removebg.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Ganesh Rudraksha</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Ganesh Rudraksha</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
 
-                    <p>Ganesh Rudraksha has a natural trunk like protrusian similiar to the trunk of Lord Ganesh , the
-                        son of Lord Shiva</p>
-                    <div>
+                        <p>Ganesh Rudraksha has a natural trunk like protrusian similiar to the trunk of Lord Ganesh , the
+                            son of Lord Shiva</p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal"
                             data-bs-target="#myModal_19">Read
                             More</button>
                     </div>
-
                 </div>
             </div>
             <!-- The Modal Body -->
@@ -1217,17 +1257,18 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/Garbh_Gauri.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Garbh Gauri Rudraksha</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Garbh Gauri Rudraksha</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
 
-                    <p>Garbhgauri Rudraksha is the smaller form of Gaurishankar both the conjoined beads are of similar
-                        size but in Garbhgauri rudraksha.</p>
-                    <div>
+                        <p>Garbhgauri Rudraksha is the smaller form of Gaurishankar both the conjoined beads are of similar
+                            size but in Garbhgauri rudraksha.</p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal"
                             data-bs-target="#myModal_20">Read
                             More</button>
                     </div>
-
                 </div>
             </div>
             <!-- The Modal Body -->
@@ -1265,16 +1306,17 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/gauri_shankhar.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Gauri Shankar Rudraksha</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Gauri Shankar Rudraksha</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
 
-                    <p>Gaurishankar Rudraksha is a conjoined form of Lord Shiva and Mother Parvati.</p>
-                    <div>
+                        <p>Gaurishankar Rudraksha is a conjoined form of Lord Shiva and Mother Parvati.</p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal"
                             data-bs-target="#myModal_21">Read
                             More</button>
                     </div>
-
                 </div>
             </div>
             <!-- The Modal Body -->
@@ -1309,10 +1351,10 @@
 
         </div>
         <div class="text-center mt-4" id="div_more">
-            <button class="btn btn-warning" id="view_more" onclick="more();" >View More</button>
+            <button class="btn btn-warning" id="view_more" onclick="more();">View More</button>
         </div>
         <div class="text-center mt-4" id="div_less" style="display:none;">
-            <button class="btn btn-warning" id="view_less" onclick="less();" >View Less</button>
+            <button class="btn btn-warning" id="view_less" onclick="less();">View Less</button>
         </div>
     </div>
 
@@ -1332,13 +1374,16 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/Ametyst.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Amethyst</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
-                    <p>Amethyst represents Saturn(Shani). Amethyst are found in any shade of purple to violet.</p>
-                    <div>
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Amethyst</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                        <p>Amethyst represents Saturn(Shani). Amethyst are found in any shade of purple to violet.</p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#gem_1">Read
                             More</button>
                     </div>
+
                 </div>
 
 
@@ -1380,15 +1425,18 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/blue_sapphire.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Blue Sapphire</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Blue Sapphire</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
 
-                    <p>Blue Sapphire represents Saturn(Shani). Blue Sapphires are found in any shade of blue, from light
-                        blue to dark blue.</p>
-                    <div>
+                        <p>Blue Sapphire represents Saturn(Shani). Blue Sapphires are found in any shade of blue, from light
+                            blue to dark blue.</p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#gem_2">Read
                             More</button>
                     </div>
+
                 </div>
             </div>
             <!-- The Modal -->
@@ -1429,16 +1477,18 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/Cat_Eye.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Cat's Eye</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Cat's Eye</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
 
-                    <p>Cat's eye represents Ketu. Cat's eye is found in any shade of light green, from light yellow to light
-                        brown and the only thing common to all shades.</p>
-                    <div>
+                        <p>Cat's eye represents Ketu. Cat's eye is found in any shade of light green, from light yellow to
+                            light
+                            brown and the only thing common to all shades.</p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#gem_3">Read
                             More</button>
                     </div>
-
                 </div>
             </div>
             <!-- The Modal -->
@@ -1478,16 +1528,18 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/citrine_stone.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Citrine</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Citrine</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
 
-                    <p>Citrine represents jupiter(Guru) are found in any shade of yellow , from light yellow to dark golden
-                        yellow.</p>
-                    <div>
+                        <p>Citrine represents jupiter(Guru) are found in any shade of yellow , from light yellow to dark
+                            golden
+                            yellow.</p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#gem_4">Read
                             More</button>
                     </div>
-
                 </div>
             </div>
             <!-- The Modal -->
@@ -1530,17 +1582,19 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/coral.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Coral</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Coral</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
 
-                    <p>Coral represents Mars(Mangal). It is found throughout the Mediterranean Sea and Red Sea areas, Spain,
-                        Morroco, Malaysia and Japan.
-                    </p>
-                    <div>
+                        <p>Coral represents Mars(Mangal). It is found throughout the Mediterranean Sea and Red Sea areas,
+                            Spain,
+                            Morroco, Malaysia and Japan.
+                        </p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#gem_5">Read
                             More</button>
                     </div>
-
                 </div>
             </div>
             <!-- The Modal -->
@@ -1581,346 +1635,357 @@
                     <div class="card-img">
                         <img src="{{ asset('frontend/gems/diamond_stone.png') }}" alt="">
                     </div>
-                    <h5 class="fw-bold">Diamond</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <div class="card-body mb-2">
+                        <h5 class="fw-bold">Diamond</h5>
+                        <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
 
-                    <p>Diamond represents Venus(Shukra). Diamonds are chemically solid carbon. Diamond color is white as
-                        well as of other colors.</p>
-                    <div>
+                        <p>Diamond represents Venus(Shukra). Diamonds are chemically solid carbon. Diamond color is white as
+                            well as of other colors.</p>
+                    </div>
+                    <div class="footer">
                         <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#gem_6">Read
                             More</button>
                     </div>
-
                 </div>
+
             </div>
-            <!-- The Modal -->
-            <div class="modal fade" id="gem_6">
-                <div class="modal-dialog modal-xl">
-                    <div class="modal-content">
+        
+        <!-- The Modal -->
+        <div class="modal fade" id="gem_6">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
 
-                        <!-- Modal Header -->
-                        <div class="modal-header">
-                            <h4 class="modal-title">Diamond</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                        </div>
-
-                        <!-- Modal body -->
-                        <div class="modal-body">
-                            <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/Diamond.jpg') }}"
-                                alt="">
-
-
-                        </div>
-
-                        <!-- Modal footer -->
-                        <div class="modal-footer">
-                            <a href="{{ asset('frontend/AstromarG/Kiran Sir/Diamond.jpg') }}" Download="test_image">
-                                <button type="button" class="btn btn-danger" src="" download>Download</button>
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-            <!--=========================== Emrald ==============================-->
-
-            <div class="col-md-6 col-lg-3 col-sm-12 mb-4">
-                <div class="card ">
-                    <div class="card-img">
-                        <img src="{{ asset('frontend/gems/emrald.png') }}" alt="">
-                    </div>
-                    <h5 class="fw-bold">Emerald</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
-                    <p>Emrald represents the planet Mercury(Buddha). Buddha mercury is the "prince" in jyotish and is
-                        influenced by Surya and Chandra.</p>
-                    <div>
-                        <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#gem_7">Read
-                            More</button>
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Diamond</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
-                </div>
-            </div>
-            <!-- The Modal -->
-            <div class="modal fade" id="gem_7">
-                <div class="modal-dialog modal-xl">
-                    <div class="modal-content">
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/Diamond.jpg') }}"
+                            alt="">
 
-                        <!-- Modal Header -->
-                        <div class="modal-header">
-                            <h4 class="modal-title">Emerald</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                        </div>
-
-                        <!-- Modal body -->
-                        <div class="modal-body">
-                            <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/Emerald.jpg') }}"
-                                alt="">
-
-
-                        </div>
-
-                        <!-- Modal footer -->
-                        <div class="modal-footer">
-                            <a href="{{ asset('frontend/AstromarG/Kiran Sir/Emerald.jpg') }}" Download="test_image">
-                                <button type="button" class="btn btn-danger" src="" download>Download</button>
-                            </a>
-                        </div>
 
                     </div>
-                </div>
-            </div>
-            <!--=========================== Hessonite ==============================-->
 
-            <div class="col-md-6 col-lg-3 col-sm-12 mb-4">
-                <div class="card ">
-                    <div class="card-img">
-                        <img src="{{ asset('frontend/gems/hessonite_stone.png') }}" alt="">
-                    </div>
-                    <h5 class="fw-bold">Hessonite</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
-
-                    <p>Hessonite(Gomed) represents Rahu. Hessonites are found in any shade from light brown to dark brown
-                        like the colour of cow's urine or shade of honey tinged with blackish colour.</p>
-                    <div>
-                        <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#myModal_8">Read
-                            More</button>
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <a href="{{ asset('frontend/AstromarG/Kiran Sir/Diamond.jpg') }}" Download="test_image">
+                            <button type="button" class="btn btn-danger" src="" download>Download</button>
+                        </a>
                     </div>
 
-                </div>
-            </div>
-            <!-- The Modal -->
-            <div class="modal fade" id="myModal_8">
-                <div class="modal-dialog modal-xl">
-                    <div class="modal-content">
-
-                        <!-- Modal Header -->
-                        <div class="modal-header">
-                            <h4 class="modal-title">Hessonite</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                        </div>
-
-                        <!-- Modal body -->
-                        <div class="modal-body">
-                            <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/Hessonite.jpg') }}"
-                                alt="">
-
-
-                        </div>
-
-                        <!-- Modal footer -->
-                        <div class="modal-footer">
-                            <a href="{{ asset('frontend/AstromarG/Kiran Sir/Hessonite.jpg') }}" Download="test_image">
-                                <button type="button" class="btn btn-danger" src="" download>Download</button>
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-            <!--=========================== Opal ==============================-->
-
-            <div class="col-md-6 col-lg-3 col-sm-12 mb-4">
-                <div class="card ">
-                    <div class="card-img">
-                        <img src="{{ asset('frontend/gems/opal.png') }}" alt="">
-                    </div>
-                    <h5 class="fw-bold">Opal</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
-                    <p>Opal is derived from the sanskrit name "upala". Opal represents Venus(Shukra).</p>
-                    <div>
-                        <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#gem_9">Read
-                            More</button>
-                    </div>
-                </div>
-            </div>
-            <!-- The Modal -->
-            <div class="modal fade" id="gem_9">
-                <div class="modal-dialog modal-xl">
-                    <div class="modal-content">
-
-                        <!-- Modal Header -->
-                        <div class="modal-header">
-                            <h4 class="modal-title">Opal</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                        </div>
-
-                        <!-- Modal body -->
-                        <div class="modal-body">
-                            <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/Opal.jpg') }}"
-                                alt="">
-
-
-                        </div>
-
-                        <!-- Modal footer -->
-                        <div class="modal-footer">
-                            <a href="{{ asset('frontend/AstromarG/Kiran Sir/Opal.jpg') }}" Download="test_image">
-                                <button type="button" class="btn btn-danger" src="" download>Download</button>
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <!--=========================== Pearl ==============================-->
-            <div class=" col-md-6 col-lg-3 col-sm-12 mb-4">
-                <div class="card ">
-                    <div class="card-img">
-                        <img src="{{ asset('frontend/gems/pearl_stone.png') }}" alt="">
-                    </div>
-                    <h5 class="fw-bold">Pearl Stone</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
-
-                    <p>Pearl represents the Moon </p>
-                    <div>
-                        <button class="button-21" role="button" data-bs-toggle="modal"
-                            data-bs-target="#gem_10">Read
-                            More</button>
-                    </div>
-                </div>
-            </div>
-            <!-- The Modal -->
-            <div class="modal fade" id="gem_10">
-                <div class="modal-dialog modal-xl">
-                    <div class="modal-content">
-
-                        <!-- Modal Header -->
-                        <div class="modal-header">
-                            <h4 class="modal-title">Pearl Stone</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                        </div>
-
-                        <!-- Modal body -->
-                        <div class="modal-body">
-                            <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/pearl.jpg') }}"
-                                alt="">
-
-
-                        </div>
-
-                        <!-- Modal footer -->
-                        <div class="modal-footer">
-                            <a href="{{ asset('frontend/AstromarG/Kiran Sir/pearl.jpg') }}" Download="test_image">
-                                <button type="button" class="btn btn-danger" src=""
-                                    download>Download</button>
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <!--=========================== Ruby Stone ==============================-->
-            <div class="col-md-6 col-lg-3 col-sm-12 mb-4">
-                <div class="card ">
-                    <div class="card-img">
-                        <img src="{{ asset('frontend/gems/ruby_stone.png') }}" alt="">
-                    </div>
-                    <h5 class="fw-bold">Ruby</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
-
-                    <p>Ruby represents the planet sun.</p>
-                    <div>
-                        <button class="button-21" role="button" data-bs-toggle="modal"
-                            data-bs-target="#gem_11">Read
-                            More</button>
-                    </div>
-
-                </div>
-            </div>
-            <!-- The Modal -->
-            <div class="modal fade" id="gem_11">
-                <div class="modal-dialog modal-xl">
-                    <div class="modal-content">
-
-                        <!-- Modal Header -->
-                        <div class="modal-header">
-                            <h4 class="modal-title">Ruby</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                        </div>
-
-                        <!-- Modal body -->
-                        <div class="modal-body">
-                            <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/ruby.jpg') }}"
-                                alt="">
-
-
-                        </div>
-
-                        <!-- Modal footer -->
-                        <div class="modal-footer">
-                            <a href="{{ asset('frontend/AstromarG/Kiran Sir/ruby.jpg') }}" Download="test_image">
-                                <button type="button" class="btn btn-danger" src=""
-                                    download>Download</button>
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <!--=========================== Yellow Sapphire ==============================-->
-
-            <div class=" col-md-6 col-lg-3 col-sm-12 mb-4">
-                <div class="card ">
-                    <div class="card-img">
-                        <img src="{{ asset('frontend/gems/yellow_sapphire_.png') }}" alt="">
-                    </div>
-                    <h5 class="fw-bold">Yellow Sapphire</h5>
-                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
-
-                    <p>Yellow Sapphire represents Jupiter(Guru).</p>
-                    <div>
-                        <button class="button-21" role="button" data-bs-toggle="modal"
-                            data-bs-target="#gem_12">Read
-                            More</button>
-                    </div>
-
-                </div>
-            </div>
-            <!-- The Modal Body -->
-            <div class="modal fade" id="gem_12">
-                <div class="modal-dialog modal-xl">
-                    <div class="modal-content">
-
-                        <!-- Modal Header -->
-                        <div class="modal-header">
-                            <h4 class="modal-title">Yellow Sapphire</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                        </div>
-
-                        <!-- Modal body -->
-                        <div class="modal-body">
-                            <img class="img-fluid"
-                                src="{{ asset('frontend/AstromarG/Kiran Sir/Yellow Sapphire.jpg') }}" alt="">
-
-
-                        </div>
-
-                        <!-- Modal footer -->
-                        <div class="modal-footer">
-                            <a href="{{ asset('frontend/AstromarG/Kiran Sir/Yellow Sapphire.jpg') }}"
-                                Download="test_image">
-                                <button type="button" class="btn btn-danger" src=""
-                                    download>Download</button>
-                            </a>
-                        </div>
-
-                    </div>
                 </div>
             </div>
         </div>
 
-        
-    <div class="text-center mt-4" id="for_more" style="background-color: #07273c;">
+
+        <!--=========================== Emrald ==============================-->
+
+        <div class="col-md-6 col-lg-3 col-sm-12 mb-4">
+            <div class="card ">
+                <div class="card-img">
+                    <img src="{{ asset('frontend/gems/emrald.png') }}" alt="">
+                </div>
+                <div class="card-body mb-2">
+                    <h5 class="fw-bold">Emerald</h5>
+                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <p>Emrald represents the planet Mercury(Buddha). Buddha mercury is the "prince" in jyotish and is
+                        influenced by Surya and Chandra.</p>
+                </div>
+                <div class="footer">
+                    <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#gem_7">Read
+                        More</button>
+                </div>
+            </div>
+        </div>
+        <!-- The Modal -->
+        <div class="modal fade" id="gem_7">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Emerald</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/Emerald.jpg') }}"
+                            alt="">
+
+
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <a href="{{ asset('frontend/AstromarG/Kiran Sir/Emerald.jpg') }}" Download="test_image">
+                            <button type="button" class="btn btn-danger" src="" download>Download</button>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--=========================== Hessonite ==============================-->
+
+        <div class="col-md-6 col-lg-3 col-sm-12 mb-4">
+            <div class="card ">
+                <div class="card-img">
+                    <img src="{{ asset('frontend/gems/hessonite_stone.png') }}" alt="">
+                </div>
+                <div class="card-body mb-2">
+                    <h5 class="fw-bold">Hessonite</h5>
+                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+
+                    <p>Hessonite(Gomed) represents Rahu. Hessonites are found in any shade from light brown to dark
+                        brown
+                        like the colour of cow's urine or shade of honey tinged with blackish colour.</p>
+                </div>
+                <div class="footer">
+                    <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#myModal_8">Read
+                        More</button>
+                </div>
+            </div>
+        </div>
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal_8">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Hessonite</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/Hessonite.jpg') }}"
+                            alt="">
+
+
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <a href="{{ asset('frontend/AstromarG/Kiran Sir/Hessonite.jpg') }}" Download="test_image">
+                            <button type="button" class="btn btn-danger" src="" download>Download</button>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!--=========================== Opal ==============================-->
+
+        <div class="col-md-6 col-lg-3 col-sm-12 mb-4">
+            <div class="card ">
+                <div class="card-img">
+                    <img src="{{ asset('frontend/gems/opal.png') }}" alt="">
+                </div>
+                <div class="card-body mb-2">
+                    <h5 class="fw-bold">Opal</h5>
+                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+                    <p>Opal is derived from the sanskrit name "upala". Opal represents Venus(Shukra).</p>
+                </div>
+                <div class="footer">
+                    <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#gem_9">Read
+                        More</button>
+                </div>
+            </div>
+        </div>
+        <!-- The Modal -->
+        <div class="modal fade" id="gem_9">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Opal</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/Opal.jpg') }}"
+                            alt="">
+
+
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <a href="{{ asset('frontend/AstromarG/Kiran Sir/Opal.jpg') }}" Download="test_image">
+                            <button type="button" class="btn btn-danger" src="" download>Download</button>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--=========================== Pearl ==============================-->
+        <div class=" col-md-6 col-lg-3 col-sm-12 mb-4">
+            <div class="card ">
+                <div class="card-img">
+                    <img src="{{ asset('frontend/gems/pearl_stone.png') }}" alt="">
+                </div>
+                <div class="card-body mb-2">
+                    <h5 class="fw-bold">Pearl Stone</h5>
+                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+
+                    <p>Pearl represents the Moon </p>
+                </div>
+                <div class="footer">
+                    <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#gem_10">Read
+                        More</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Modal -->
+        <div class="modal fade" id="gem_10">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Pearl Stone</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/pearl.jpg') }}"
+                            alt="">
+
+
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <a href="{{ asset('frontend/AstromarG/Kiran Sir/pearl.jpg') }}" Download="test_image">
+                            <button type="button" class="btn btn-danger" src="" download>Download</button>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--=========================== Ruby Stone ==============================-->
+        <div class="col-md-6 col-lg-3 col-sm-12 mb-4">
+            <div class="card ">
+                <div class="card-img">
+                    <img src="{{ asset('frontend/gems/ruby_stone.png') }}" alt="">
+                </div>
+                <div class="card-body mb-2">
+                    <h5 class="fw-bold">Ruby</h5>
+                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+
+                    <p>Ruby represents the planet sun.</p>
+                </div>
+                <div class="footer">
+                    <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#gem_11">Read
+                        More</button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- The Modal -->
+        <div class="modal fade" id="gem_11">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Ruby</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/ruby.jpg') }}"
+                            alt="">
+
+
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <a href="{{ asset('frontend/AstromarG/Kiran Sir/ruby.jpg') }}" Download="test_image">
+                            <button type="button" class="btn btn-danger" src="" download>Download</button>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--=========================== Yellow Sapphire ==============================-->
+
+        <div class=" col-md-6 col-lg-3 col-sm-12 mb-4">
+            <div class="card ">
+                <div class="card-img">
+                    <img src="{{ asset('frontend/gems/yellow_sapphire_.png') }}" alt="">
+                </div>
+                <div class="card-body mb-2">
+                    <h5 class="fw-bold">Yellow Sapphire</h5>
+                    <hr class="m-0 mx-auto my-2 w-75" style=" border-top:solid #FF4A17 3px; opacity:0.6;">
+
+                    <p>Yellow Sapphire represents Jupiter(Guru).</p>
+                </div>
+                <div class="footer">
+                    <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#gem_12">Read
+                        More</button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- The Modal Body -->
+        <div class="modal fade" id="gem_12">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Yellow Sapphire</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/Yellow Sapphire.jpg') }}"
+                            alt="">
+
+
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <a href="{{ asset('frontend/AstromarG/Kiran Sir/Yellow Sapphire.jpg') }}"
+                            Download="test_image">
+                            <button type="button" class="btn btn-danger" src="" download>Download</button>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="text-center pt-4" id="for_more" style="background-color: #07273c;">
         <button class="btn btn-warning" onclick="more1();">View More</button>
     </div>
-    <div class="text-center mt-4" id="for_less" style="display:none; background-color: #07273c;">
+    <div class="text-center pt-4" id="for_less" style="display:none; background-color: #07273c;">
         <button class="btn btn-warning" onclick="less1();">View Less</button>
     </div>
     </div>
@@ -2661,10 +2726,11 @@
         }
     </script>
     <!-- Jquery js -->
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
-<!-- Owl Carousel js -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <!-- Owl Carousel js -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
+    </script>
 
     <script>
         /* autoplay js*/
