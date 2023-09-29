@@ -285,7 +285,7 @@
 
     <!--========================================= Rudraksha =========================================-->
     <div class="container-fluid" style="background-color: rgb(7,39,60)">
-        <div class="twelve p-3">
+        <div class="twelve py-3">
             <h1>RUDRAKSHA</h1>
         </div>
 
@@ -1313,16 +1313,17 @@
             </div>
 
         </div>
-        <div class="text-center" id="div_more">
-            <button class="btn " id="view_more" onclick="more();" style="background: #FF4A17">View More</button>
+        <div class="text-center mt-4" id="div_more">
+            <button class="btn btn-warning" id="view_more" onclick="more();" >View More</button>
         </div>
-        <div class="text-center" id="div_less" style="display:none;">
-            <button class="btn " id="view_less" onclick="less();" style="background: #FF4A17">View Less</button>
+        <div class="text-center mt-4" id="div_less" style="display:none;">
+            <button class="btn btn-warning" id="view_less" onclick="less();" >View Less</button>
         </div>
     </div>
 
     <!--========================================= Gemstones =========================================-->
     <div class="container-fluid" style="background-color: rgb(7,39,60)">
+
         <div class="twelve pt-5">
             <h1>Gemstones</h1>
         </div>
@@ -1919,21 +1920,23 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="text-center" id="for_more" style="background-color: #07273c;">
+        
+    <div class="text-center mt-4" id="for_more" style="background-color: #07273c;">
         <button class="btn btn-warning" onclick="more1();">View More</button>
     </div>
-    <div class="text-center" id="for_less" style="display:none; background-color: #07273c;">
-        <button class="btn btn-primary" onclick="less1();">View Less</button>
+    <div class="text-center mt-4" id="for_less" style="display:none; background-color: #07273c;">
+        <button class="btn btn-warning" onclick="less1();">View Less</button>
     </div>
+    </div>
+
 
     {{-- slider end --}}
 
     <!--start zodiac sign -->
     <!-- =========================== stotra =================================-->
     <div class="container-fluid" style="background-color: rgb(7,39,60)">
-        <div class="twelve p-3">
+        <div class="twelve  pt-5">
             <h1>STOTRA</h1>
         </div>
         <div id="autoplay-carousel" class="autoplay-carousel owl-carousel pmd-card-carousel owl-theme text-center"
