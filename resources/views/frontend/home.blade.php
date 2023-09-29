@@ -280,7 +280,7 @@
 
     <!--========================================= Rudraksha =========================================-->
     <div class="container-fluid" style="background-color: rgb(7,39,60)">
-        <div class="twelve p-3">
+        <div class="twelve py-3">
             <h1>RUDRAKSHA</h1>
         </div>
 
@@ -1308,16 +1308,17 @@
             </div>
 
         </div>
-        <div class="text-center" id="div_more">
-            <button class="btn " id="view_more" onclick="more();" style="background: #FF4A17">View More</button>
+        <div class="text-center mt-4" id="div_more">
+            <button class="btn btn-warning" id="view_more" onclick="more();" >View More</button>
         </div>
-        <div class="text-center" id="div_less" style="display:none;">
-            <button class="btn " id="view_less" onclick="less();" style="background: #FF4A17">View Less</button>
+        <div class="text-center mt-4" id="div_less" style="display:none;">
+            <button class="btn btn-warning" id="view_less" onclick="less();" >View Less</button>
         </div>
     </div>
 
     <!--========================================= Gemstones =========================================-->
     <div class="container-fluid" style="background-color: rgb(7,39,60)">
+
         <div class="twelve pt-5">
             <h1>Gemstones</h1>
         </div>
@@ -1914,317 +1915,273 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="text-center" id="for_more" style="background-color: #07273c;">
+        
+    <div class="text-center mt-4" id="for_more" style="background-color: #07273c;">
         <button class="btn btn-warning" onclick="more1();">View More</button>
     </div>
-    <div class="text-center" id="for_less" style="display:none; background-color: #07273c;">
-        <button class="btn btn-primary" onclick="less1();">View Less</button>
+    <div class="text-center mt-4" id="for_less" style="display:none; background-color: #07273c;">
+        <button class="btn btn-warning" onclick="less1();">View Less</button>
     </div>
- 
-
-
-   {{-- slider end --}}
-
-
-   <script>
-        function more1() {
-            document.getElementById("row2").style.display = "flex";
-            document.getElementById("for_more").style.display = "none";
-            document.getElementById("for_less").style.display = "block";
-        }
-
-        function less1() {
-            document.getElementById("row2").style.display = "none";
-            document.getElementById("for_more").style.display = "block";
-            document.getElementById("for_less").style.display = "none";
-        }
-    </script>
+    </div>
 
     {{-- slider end --}}
 
-    {{-- <section class="vishes">
-        <div class="conatiner" data-aos="fade-up">
-            <div class="text-center m-4">
-                <h1 class="text-white">Astro<span style="color:#ff4a17; font-weight:600"> Services: </span></h1>
-            </div>
-            <div class="container d-flex" data-aos="fade-up">
-                <ul class="visheslist mt-5">
-                    <li> <img src="{{ asset('frontend/assets/image/eye.png') }}" width="30px"
-                            class="img-fluid">&nbsp;&nbsp; <a class="text-white" href="#">Birth Chart
-                            Analysis</a>
-                    </li>
-
-                    <li> <img src="{{ asset('frontend/assets/image/eye.png') }}" width="30px"
-                            class="img-fluid">&nbsp;&nbsp; <a class="text-white" href="#">Remedies and
-                            Solutions</a> </li>
-
-                    <li> <img src="{{ asset('frontend/assets/image/eye.png') }}" width="30px"
-                            class="img-fluid">&nbsp;&nbsp;<a class="text-white" href="#">Horoscope
-                            Readings</a>
-                    </li>
-
-                    <li> <img src="{{ asset('frontend/assets/image/eye.png') }}" width="30px"
-                            class="img-fluid">&nbsp;&nbsp;<a class="text-white" href="#">Education and
-                            Learning
-                            Guidance</a></li>
-
-                    <li> <img src="{{ asset('frontend/assets/image/eye.png') }}" width="30px"
-                            class="img-fluid">&nbsp;&nbsp;<a class="text-white" href="#">Compatibility
-                            Analysis</a>
-                    </li>
-
-                    <li> <img src="{{ asset('frontend/assets/image/eye.png') }}" width="30px"
-                            class="img-fluid">&nbsp;&nbsp;<a class="text-white" href="#">Muhurtha and
-                            Timing</a>
-                    </li>
-
-                    <li> <img src="{{ asset('frontend/assets/image/eye.png') }}" width="30px"
-                            class="img-fluid">&nbsp;&nbsp;<a class="text-white" href="#">Career and Finance
-                            Guidance</a> </li>
-
-                    <li> <img src="{{ asset('frontend/assets/image/eye.png') }}" width="30px"
-                            class="img-fluid">&nbsp;&nbsp; <a class="text-white" href="#">Career
-                            Counseling</a>
-                    </li>
-
-                    <li> <img src="{{ asset('frontend/assets/image/eye.png') }}" width="30px"
-                            class="img-fluid">&nbsp;&nbsp;<a class="text-white" href="#">Marriage and
-                            Relationship
-                            Consultations</a></li>
-
-                    <li> <img src="{{ asset('frontend/assets/image/eye.png') }}" width="30px"
-                            class="img-fluid">&nbsp;&nbsp;<a class="text-white" href="#">Child Birth
-                            Timing</a>
-                    </li>
-
-                    <li> <img src="{{ asset('frontend/assets/image/eye.png') }}" width="30px"
-                            class="img-fluid">&nbsp;&nbsp;<a class="text-white" href="#">Health and
-                            Well-Being
-                            Insights</a></li>
-
-                    <li> <img src="{{ asset('frontend/assets/image/eye.png') }}" width="30px"
-                            class="img-fluid">&nbsp;&nbsp;<a class="text-white" href="#">Name and Business
-                            Consultations</a></li>
-                </ul>
-            </div>
-        </div>
-
-    </section> --}}
     <!--start zodiac sign -->
-   <!-- =========================== stotra =================================-->
-<div id="autoplay-carousel" class="autoplay-carousel owl-carousel pmd-card-carousel owl-theme text-center" style="background-color: rgb(7,39,60);">
-	<div class="item">
-		<div class="card pmd-card">
-			<!-- Card Media -->
-			<div class="pmd-card-media">
-				<img src= "{{ asset('frontend/stotra/ganpati.jpg') }}" width="1184" height="666" class="img-fluid">
-			</div>
-			
-			<!-- Card Body -->
-			<div class="card-body">
-				<h5 class="card-title">॥ श्री गणेश स्तोत्र ॥</h5>
-				
-			</div>
-			
-			<!-- Card Footer -->
-			<div class="card-footer">
-				<a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
-			</div>
-		</div>
-	</div>
-	<div class="item">
-		<div class="card pmd-card">
-			<!-- Card Media -->
-			<div class="pmd-card-media">
-				<img src="{{ asset('frontend/stotra/mahadev.jpg') }}" width="1184" height="666" class="img-fluid">
-			</div>
-			
-			<!-- Card Body -->
-			<div class="card-body">
-				<h5 class="card-title">॥ श्रीरुद्राष्टकम् ॥</h5>
-				
-			</div>
-			
-			<!-- Card Footer -->
-			<div class="card-footer">
-                <a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
-			</div>
-		</div>
-	</div>
-	<div class="item">
-		<div class="card pmd-card">
-			<!-- Card Media -->
-			<div class="pmd-card-media">
-				<img src="{{ asset('frontend/stotra/hanuman1.jpg') }}" width="1184" height="666" class="img-fluid">
-			</div>
-			
-			<!-- Card Body -->
-			<div class="card-body">
-				<h5 class="card-title">॥ हनुमान चालीसा ॥</h5>
-			
-			</div>
-			
-			<!-- Card Footer -->
-			<div class="card-footer">
-				<a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
-			</div>
-		</div>
-	</div>
-	<div class="item">
-		<div class="card pmd-card">
-			<!-- Card Media -->
-			<div class="pmd-card-media">
-				<img src="{{ asset('frontend/stotra/mahalaxmi.jpg') }}" width="1184" height="666" class="img-fluid">
-			</div>
-			
-			<!-- Card Body -->
-			<div class="card-body">
-				<h5 class="card-title">॥ श्री महालक्ष्म्यष्टकम् ॥</h5>
-				
-			</div>
-			
-			<!-- Card Footer -->
-			<div class="card-footer">
-                <a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
-			</div>
-		</div>
-	</div>
-	<div class="item">
-		<div class="card pmd-card">
-			<!-- Card Media -->
-			<div class="pmd-card-media">
-				<img src="{{ asset('frontend/stotra/kaal_bhairav.jpg') }}" width="1184" height="666" class="img-fluid">
-			</div>
-			
-			<!-- Card Body -->
-			<div class="card-body">
-				<h5 class="card-title">॥ काल भैरव अष्टक ॥</h5>
-				
-			</div>
-			
-			<!-- Card Footer -->
-			<div class="card-footer">
-                <a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
-			</div>
-		</div>
-	</div>
-	<div class="item">
-		<div class="card pmd-card">
-			<!-- Card Media -->
-			<div class="pmd-card-media">
-				<img src="{{ asset('frontend/stotra/aditya_suryadev.jpg') }}" width="1184" height="666" class="img-fluid">
-			</div>
-			
-			<!-- Card Body -->
-			<div class="card-body">
-				<h5 class="card-title">॥ आदित्य हृदयस्तोत्र ॥</h5>
-				
-			</div>
-			
-			<!-- Card Footer -->
-			<div class="card-footer">
-				<a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
-			</div>
-		</div>
-	</div>
-    <div class="item">
-		<div class="card pmd-card">
-			<!-- Card Media -->
-			<div class="pmd-card-media">
-				<img src="{{ asset('frontend/stotra/mahadev2.jpg') }}" width="1184" height="666" class="img-fluid">
-			</div>
-			
-			<!-- Card Body -->
-			<div class="card-body">
-				<h5 class="card-title">॥ दारिद्र्य दहन शिवस्तोत्रं ॥</h5>
-				
-			</div>
-			
-			<!-- Card Footer -->
-			<div class="card-footer">
-				<a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
-			</div>
-		</div>
-	</div>
-    <div class="item">
-		<div class="card pmd-card">
-			<!-- Card Media -->
-			<div class="pmd-card-media">
-				<img src="{{ asset('frontend/stotra/hanuman2.jpg') }}" width="1184" height="666" class="img-fluid">
-			</div>
-			
-			<!-- Card Body -->
-			<div class="card-body">
-				<h5 class="card-title">॥ हनुमान वडवानल स्त्रोत ॥</h5>
-				
-			</div>
-			
-			<!-- Card Footer -->
-			<div class="card-footer">
-				<a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
-			</div>
-		</div>
-	</div>
-    <div class="item">
-		<div class="card pmd-card">
-			<!-- Card Media -->
-			<div class="pmd-card-media">
-				<img src="{{ asset('frontend/stotra/bhavani_maa.jpg') }}" width="1184" height="666" class="img-fluid">
-			</div>
-			
-			<!-- Card Body -->
-			<div class="card-body">
-				<h5 class="card-title">॥ भवानी अष्टकम ॥</h5>
-				
-			</div>
-			
-			<!-- Card Footer -->
-			<div class="card-footer">
-				<a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
-			</div>
-		</div>
-	</div>
-    <div class="item">
-		<div class="card pmd-card">
-			<!-- Card Media -->
-			<div class="pmd-card-media">
-				<img src="{{ asset('frontend/stotra/navgraha.jpg') }}" width="1184" height="666" class="img-fluid">
-			</div>
-			
-			<!-- Card Body -->
-			<div class="card-body">
-				<h5 class="card-title">॥ नवग्रह स्तोत्र ॥</h5>
-				
-			</div>
-			
-			<!-- Card Footer -->
-			<div class="card-footer">
-				<a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
-			</div>
-		</div>
-	</div>
-    <div class="item">
-		<div class="card pmd-card">
-			<!-- Card Media -->
-			<div class="pmd-card-media">
-				<img src="{{ asset('frontend/stotra/mahadev3.jpg') }}" width="1184" height="666" class="img-fluid">
-			</div>
-			
-			<!-- Card Body -->
-			<div class="card-body">
-				<h5 class="card-title">॥ निर्वाणषट्कम् ॥</h5>
-				
-			</div>
-			
-			<!-- Card Footer -->
-			<div class="card-footer">
-				<a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary" href="javascript:void(0);"><i class="material-icons pmd-sm">Read More</i></a>
-			</div>
-		</div>
-	</div>
-</div>
+    <!-- =========================== stotra =================================-->
+    <div class="container-fluid" style="background-color: rgb(7,39,60)">
+        <div class="twelve p-3">
+            <h1>STOTRA</h1>
+        </div>
+        <div id="autoplay-carousel" class="autoplay-carousel owl-carousel pmd-card-carousel owl-theme text-center"
+            style="background-color: rgb(7,39,60);">
+
+            <div class="item">
+                <div class="card pmd-card">
+                    <!-- Card Media -->
+                    <div class="pmd-card-media">
+                        <img src="{{ asset('frontend/stotra/ganpati.jpg') }}" width="1184" height="666"
+                            class="img-fluid">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <h5 class="card-title">॥ श्री गणेश स्तोत्र ॥</h5>
+
+                    </div>
+
+                    <!-- Card Footer -->
+                    <div class="card-footer">
+                        <button class="button-21" role="button" data-bs-toggle="modal"
+                            data-bs-target="#ganesh">Read
+                            More</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="item">
+                <div class="card pmd-card">
+                    <!-- Card Media -->
+                    <div class="pmd-card-media">
+                        <img src="{{ asset('frontend/stotra/mahadev.jpg') }}" width="1184" height="666"
+                            class="img-fluid">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <h5 class="card-title">॥ श्रीरुद्राष्टकम् ॥</h5>
+
+                    </div>
+
+                    <!-- Card Footer -->
+                    <div class="card-footer">
+                        <button class="button-21" role="button" data-bs-toggle="modal" data-bs-target="#rudra">Read
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card pmd-card">
+                    <!-- Card Media -->
+                    <div class="pmd-card-media">
+                        <img src="{{ asset('frontend/stotra/hanuman1.jpg') }}" width="1184" height="666"
+                            class="img-fluid">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <h5 class="card-title">॥ हनुमान चालीसा ॥</h5>
+
+                    </div>
+
+                    <!-- Card Footer -->
+                    <div class="card-footer">
+                        <button class="button-21" role="button" data-bs-toggle="modal"
+                            data-bs-target="#hanuman_chalisa">Read
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card pmd-card">
+                    <!-- Card Media -->
+                    <div class="pmd-card-media">
+                        <img src="{{ asset('frontend/stotra/mahalaxmi.jpg') }}" width="1184" height="666"
+                            class="img-fluid">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <h5 class="card-title">॥ श्री महालक्ष्म्यष्टकम् ॥</h5>
+
+                    </div>
+
+                    <!-- Card Footer -->
+                    <div class="card-footer">
+                        <button class="button-21" role="button" data-bs-toggle="modal"
+                            data-bs-target="#mahalakshmi">Read
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card pmd-card">
+                    <!-- Card Media -->
+                    <div class="pmd-card-media">
+                        <img src="{{ asset('frontend/stotra/kaal_bhairav.jpg') }}" width="1184" height="666"
+                            class="img-fluid">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <h5 class="card-title">॥ काल भैरव अष्टक ॥</h5>
+
+                    </div>
+
+                    <!-- Card Footer -->
+                    <div class="card-footer">
+                        <button class="button-21" role="button" data-bs-toggle="modal"
+                            data-bs-target="#kalbhairav">Read
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card pmd-card">
+                    <!-- Card Media -->
+                    <div class="pmd-card-media">
+                        <img src="{{ asset('frontend/stotra/aditya_suryadev.jpg') }}" width="1184" height="666"
+                            class="img-fluid">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <h5 class="card-title">॥ आदित्य हृदयस्तोत्र ॥</h5>
+
+                    </div>
+
+                    <!-- Card Footer -->
+                    <div class="card-footer">
+                        <button class="button-21" role="button" data-bs-toggle="modal"
+                            data-bs-target="#aaditya">Read
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card pmd-card">
+                    <!-- Card Media -->
+                    <div class="pmd-card-media">
+                        <img src="{{ asset('frontend/stotra/mahadev2.jpg') }}" width="1184" height="666"
+                            class="img-fluid">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <h5 class="card-title">॥ दारिद्र्य दहन शिवस्तोत्रं ॥</h5>
+
+                    </div>
+
+                    <!-- Card Footer -->
+                    <div class="card-footer">
+                        <button class="button-21" role="button" data-bs-toggle="modal"
+                            data-bs-target="#shivstotra">Read
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card pmd-card">
+                    <!-- Card Media -->
+                    <div class="pmd-card-media">
+                        <img src="{{ asset('frontend/stotra/hanuman2.jpg') }}" width="1184" height="666"
+                            class="img-fluid">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <h5 class="card-title">॥ हनुमान वडवानल स्त्रोत ॥</h5>
+
+                    </div>
+
+                    <!-- Card Footer -->
+                    <div class="card-footer">
+                        <button class="button-21" role="button" data-bs-toggle="modal"
+                            data-bs-target="#wadwanal_stotra">Read
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card pmd-card">
+                    <!-- Card Media -->
+                    <div class="pmd-card-media">
+                        <img src="{{ asset('frontend/stotra/bhavani_maa.jpg') }}" width="1184" height="666"
+                            class="img-fluid">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <h5 class="card-title">॥ भवानी अष्टकम ॥</h5>
+
+                    </div>
+
+                    <!-- Card Footer -->
+                    <div class="card-footer">
+                        <button class="button-21" role="button" data-bs-toggle="modal"
+                            data-bs-target="#bhavani">Read
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card pmd-card">
+                    <!-- Card Media -->
+                    <div class="pmd-card-media">
+                        <img src="{{ asset('frontend/stotra/navgraha.jpg') }}" width="1184" height="666"
+                            class="img-fluid">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <h5 class="card-title">॥ नवग्रह स्तोत्र ॥</h5>
+
+                    </div>
+
+                    <!-- Card Footer -->
+                    <div class="card-footer">
+                        <button class="button-21" role="button" data-bs-toggle="modal"
+                            data-bs-target="#navgrah">Read
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card pmd-card">
+                    <!-- Card Media -->
+                    <div class="pmd-card-media">
+                        <img src="{{ asset('frontend/stotra/mahadev3.jpg') }}" width="1184" height="666"
+                            class="img-fluid">
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <h5 class="card-title">॥ निर्वाणषट्कम् ॥</h5>
+
+                    </div>
+
+                    <!-- Card Footer -->
+                    <div class="card-footer">
+                        <button class="button-21" role="button" data-bs-toggle="modal"
+                            data-bs-target="#nirvanshatkam">Read
+                            More</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
 
 
 
