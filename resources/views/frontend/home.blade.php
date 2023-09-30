@@ -281,6 +281,36 @@
     </section>
     <!-- End Hero -->
 
+    {{-- Blog Start --}}
+    <section id="for-title" class="main-heading px-3" style=" background-color: #07273c">
+        <!------------------------------------------ Birth Chart Analysis --------------------------------------------------->
+        <div class="for-cards" style=" color: white;">
+            <div class="row px-2">
+                <div class="col-md-6 col-sm-12 ps-5">
+
+                    <div class="card mb-3 bg-transparent" style="box-shadow: 0 0.5rem 1rem rgba(7, 7, 8, 1.15);">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <img src="{{asset('frontend/AstromarG/Pics/birth_chart_calculato.png')}}" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold" style="        color: #ff4a17;
+                                    ">Birth Chart Analysis: </h5>
+                                    <p class="card-text">Astrologers analyze an individual's birth chart (natal
+                                        chart) to provide insights into their personality traits, strengths,
+                                        challenges, career potential, relationships, and more.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    {{-- Blog End --}}
+
     {{-- slider start --}}
 
     <!--========================================= Rudraksha =========================================-->
@@ -1372,11 +1402,11 @@
             </div>
 
         </div>
-        <div class="text-center mt-4" id="div_more">
-            <button class="btn btn-warning" id="view_more" onclick="more();">View More</button>
+        <div class="text-center" id="div_more">
+            <button class="btn " id="view_more" onclick="more();" style="background: #FF4A17">View More</button>
         </div>
-        <div class="text-center mt-4" id="div_less" style="display:none;">
-            <button class="btn btn-warning" id="view_less" onclick="less();">View Less</button>
+        <div class="text-center" id="div_less" style="display:none;">
+            <button class="btn " id="view_less" onclick="less();" style="background: #FF4A17">View Less</button>
         </div>
     </div>
 
@@ -2003,26 +2033,26 @@
                         </a>
                     </div>
 
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-    <div class="text-center pt-4" id="for_more" style="background-color: #07273c;">
+    <div class="text-center" id="for_more" style="background-color: #07273c;">
         <button class="btn btn-warning" onclick="more1();">View More</button>
     </div>
-    <div class="text-center pt-4" id="for_less" style="display:none; background-color: #07273c;">
-        <button class="btn btn-warning" onclick="less1();">View Less</button>
+    <div class="text-center" id="for_less" style="display:none; background-color: #07273c;">
+        <button class="btn btn-primary" onclick="less1();">View Less</button>
     </div>
-    </div>
+
 
     {{-- slider end --}}
 
     <!--start zodiac sign -->
     <!-- =========================== stotra =================================-->
     <div class="container-fluid" style="background-color: rgb(7,39,60)">
-        <div class="twelve p-3">
+        <div class="twelve  pt-5">
             <h1>STOTRA</h1>
         </div>
         <div id="autoplay-carousel" class="autoplay-carousel owl-carousel pmd-card-carousel owl-theme text-center"
