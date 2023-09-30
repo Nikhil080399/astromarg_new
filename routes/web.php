@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\frontend\HomeController;
 use App\Http\Controllers\frontend\About_UsController;
 use App\Http\Controllers\frontend\Astro_ServicesController;
+use App\Http\Controllers\frontend\BlogController;
 use App\Http\Controllers\frontend\Astromarg_SolutionController;
 use App\Http\Controllers\frontend\Chandal_YogaController;
 use App\Http\Controllers\frontend\ColorsController;
@@ -48,6 +49,7 @@ Route::get('/astromarg-solution',[Astromarg_SolutionController::class, 'index'])
 Route::get('/vastu-consulation',[Vastu_ConsulationController::class, 'index'])->name('vastu-consulation');
 Route::get('/numerological-solution',[Numerological_SolutionController::class, 'index'])->name('numerological-solution');
 Route::get('/astro-services',[Astro_ServicesController::class, 'index'])->name('astro-services');
+Route::get('/blog',[BlogController::class, 'index'])->name('blog');
 Route::get('/gemstones',[GemstonesController::class, 'index'])->name('gemstones');
 Route::get('/rudraksha',[RudrakshaController::class, 'index'])->name('rudraksha');
 Route::get('/metals',[MetalsController::class, 'index'])->name('metals');
