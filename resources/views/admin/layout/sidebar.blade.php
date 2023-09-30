@@ -23,6 +23,7 @@
                 <div class="menu-title">UI Setting</div>
             </a>
         </li>
+        
         <li>
             <a href="javascript:;" class="has-arrow">
                 <div class="parent-icon"><i class="bx bx-category"></i>
@@ -36,6 +37,22 @@
                 </li>
             </ul>
         </li>
+        
+
+        <li>
+            <a href="javascript:;" class="has-arrow">
+                <div class="parent-icon"><i class="bx bx-category"></i>
+                </div>
+                <div class="menu-title">Insert Data</div>
+            </a>
+            <ul>
+                <li> <a href="#"><i class="bx bx-right-arrow-alt"></i>Blog</a>
+                </li>
+                <li> <a href="#"><i class="bx bx-right-arrow-alt"></i>Video</a>
+                </li>
+            </ul>
+        </li>
+        
         <li>
             <a href="{{ url('profile') }}">
                 <div class="parent-icon"><i class='bx bx-command'></i>

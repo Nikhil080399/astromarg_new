@@ -1,0 +1,74 @@
+.dropbtn {
+    background: none;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.vertical {
+    border-left: 2px solid black;
+    height: 100vh;
+}
+
+
+.img-sec {
+    background-image: url('../images/our-heritage-pic1.jpg');
+    background-size: cover;
+    min-height: 300px;
+
+
+}
+
+.leftbtnheritage {
+    border-radius: 100px;
+}
+
+.leftbtnheritage a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.leftbtnheritage:hover {
+    background-color: rgb(12, 71, 134);
+    color: white;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .heritage-side-tabs {
+        display: none;
+    }
+}
+
+/* css for mission-vision-values page */
+.img-sec2 {
+    background-image: url('../images/vision-mission-bg.jpg');
+    background-size: cover;
+}
+
+.card-style {
+    height: 15rem;
+    width: 12rem;
+    border: none;
+}
+
+/* css for learn about solar page */
+.img-sec3 {
+    background-image: url('../images/learn-about-solor-cont-bg1.jpg');
+    background-size: cover;
+}
+
+.img-sec4 {
+    background-image: url('../images/learn-about-solor-cont-bg2.jpg');
+    background-size: cover;
+}
+
+.para-text p {
+    font-size: 15px;
+}
+
+.leftbtnheritage:active {
+            background-color: rgb(12, 71, 134)!important;
+            color: white !important;
+        }
