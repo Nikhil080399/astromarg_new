@@ -51,13 +51,13 @@
             <h3><span style="color:#ff4a17; ">Key features of Rudraksha include:</span></h3>
         </div>
 
-        <!--===============================1.	Origin and Significance:  ====================================-->
+        <!--===============================1.Origin and Significance:  ====================================-->
 
         <div class="px-4">
             <div class="row justify-content-around">
                 <div class="card p-3 m-4 col-md-5 col-sm-12">
                     <div class="card-item p-3">
-                        <img src="{{asset('frontend/AstromarG/Planertary_combination.png')}}" alt="" style="height:15rem; width:100%;">
+                        <img src="{{asset('frontend/AstromarG/rudraksha_origin.jpeg')}}" alt="" style="height:15rem; width:100%;">
                     </div>
                     <div class="card-body pt-3">
                         <h4 class="crad-title text-center">1. Origin and Significance: </h5>
@@ -67,10 +67,10 @@
                                 and "Aksha" (eye), symbolizing the divine nature of the beads.</p>
                     </div>
                 </div>
-                <!--=========================================== 2.	Mukhis (Facets):  ====================================================-->
+                <!--=========================================== 2.Mukhis (Facets):  ====================================================-->
                 <div class="card p-3 m-4 col-md-5 col-sm-12">
                     <div class="card-item p-3">
-                        <img src="{{asset('frontend/AstromarG/chandal_effect.jpg')}}" alt="" style="height:15rem; width:100%;">
+                        <img src="{{asset('frontend/AstromarG/rudraksha_mukhi.jpeg')}}" alt="" style="height:15rem; width:100%;">
                     </div>
                     <div class="card-body pt-3">
                         <h4 class="crad-title text-center">2. Mukhis (Facets): </h5>
@@ -81,11 +81,11 @@
                 </div>
 
 
-                <!--======================================== 3.	Planetary Associations: ==============================================-->
+                <!--======================================== 3.Planetary Associations: ==============================================-->
 
                 <div class="card p-3 m-4 col-md-5 col-sm-12">
                     <div class="card-item p-3">
-                        <img src="{{asset('frontend/AstromarG/chandal_characteristics.jpeg')}}" alt="" style="height:15rem; width:100%;">
+                        <img src="{{asset('frontend/AstromarG/planetary_assc.jpg')}}" alt="" style="height:15rem; width:100%;">
                     </div>
                     <div class="card-body pt-3">
                         <h4 class="crad-title text-center">3. Planetary Associations: </h5>
@@ -97,11 +97,11 @@
                     </div>
                 </div>
 
-                <!--===========================================4.	Wearing Rudraksha:  ===============================================-->
+                <!--===========================================4.Wearing Rudraksha:  ===============================================-->
 
                 <div class="card p-3 m-4 col-md-5 col-sm-12">
                     <div class="card-item p-3">
-                        <img src="{{asset('frontend/AstromarG/chandal_remedies.jpeg')}}" alt="" style="height:15rem; width:100%;">
+                        <img src="{{asset('frontend/AstromarG/wearing_rudraksha.jpg')}}" alt="" style="height:15rem; width:100%;">
                     </div>
                     <div class="card-body pt-3">
                         <h4 class="crad-title text-center">4. Wearing Rudraksha: </h5>
@@ -113,11 +113,11 @@
                     </div>
                 </div>
 
-                <!--==================================== 5.	Effects and Benefits:  ================================-->
+                <!--==================================== 5.Effects and Benefits:  ================================-->
 
                 <div class="card p-3 m-4 col-md-5 col-sm-12">
                     <div class="card-item p-3">
-                        <img src="{{asset('frontend/AstromarG/chandal_analysis.jpeg')}}" alt="" style="height:15rem; width:100%;">
+                        <img src="{{asset('frontend/AstromarG/rudraksha.jpeg')}}" alt="" style="height:15rem; width:100%;">
                     </div>
                     <div class="card-body pt-3">
                         <h4 class="crad-title text-center">5. Effects and Benefits: </h5>
@@ -129,11 +129,11 @@
 
 
                 </div>
-                <!--==================================== 6.	Energy and Aura:  ================================-->
+                <!--==================================== 6.Energy and Aura:  ================================-->
 
                 <div class="card p-3 m-4 col-md-5 col-sm-12">
                     <div class="card-item p-3">
-                        <img src="{{asset('frontend/AstromarG/chandal_analysis.jpeg')}}" alt="" style="height:15rem; width:100%;">
+                        <img src="{{asset('frontend/AstromarG/Aura-Chakra.jpg')}}" alt="" style="height:15rem; width:100%;">
                     </div>
                     <div class="card-body pt-3">
                         <h4 class="crad-title text-center">6. Energy and Aura:</h5>
@@ -146,11 +146,11 @@
 
                 </div>
 
-                <!--==================================== 7.	Consultation with Astrologers:   ================================-->
+                <!--==================================== 7.Consultation with Astrologers:   ================================-->
 
                 <div class="card p-3 m-4 col-md-5 col-sm-12">
                     <div class="card-item p-3">
-                        <img src="{{asset('frontend/AstromarG/chandal_analysis.jpeg')}}" alt="" style="height:15rem; width:100%;">
+                        <img src="{{asset('frontend/AstromarG/consultaion.jpeg')}}" alt="" style="height:15rem; width:100%;">
                     </div>
                     <div class="card-body pt-3">
                         <h4 class="crad-title text-center">7. Consultation with Astrologers: </h5>
@@ -164,11 +164,11 @@
                 </div>
 
 
-                <!--==================================== 8.	Ethical Sourcing:  ================================-->
+                <!--==================================== 8.Ethical Sourcing:  ================================-->
 
                 <div class="card p-3 m-4 col-md-5 col-sm-12">
                     <div class="card-item p-3">
-                        <img src="{{asset('frontend/AstromarG/chandal_analysis.jpeg')}}" alt="" style="height:15rem; width:100%;">
+                        <img src="{{asset('frontend/AstromarG/ethical_source.jpeg')}}" alt="" style="height:15rem; width:100%;">
                     </div>
                     <div class="card-body pt-3">
                         <h4 class="crad-title text-center">8. Ethical Sourcing: </h5>

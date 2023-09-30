@@ -99,7 +99,7 @@
             <div class="card bg-transparent mb-5" data-aos="fade-left" style="border:none">
                 <div class="row g-0">
                     <div class="col-md-4">
-                        <img src="{{asset('frontend/AstromarG/Pics/birth_chart_calculato.png')}}" class="img-fluid " alt="...">
+                        <img src="{{asset('frontend/AstromarG/Pics/predictions.jpg')}}" class="img-fluid " alt="...">
                     </div>
                     <div class="col-sm-12 col-md-8">
                         <div class="card-body p-5">
@@ -122,7 +122,7 @@
             <div class="card bg-transparent mb-5" data-aos="fade-right" style="border:none">
                 <div class="row g-0">
                     <div class="col-md-4">
-                        <img src="{{asset('frontend/AstromarG/Pics/birth_chart_calculato.png')}}" class="img-fluid " alt="...">
+                        <img src="{{asset('frontend/AstromarG/Pics/compatibility_analysis.jpeg')}}" class="img-fluid " alt="...">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body p-5">
@@ -144,7 +144,7 @@
             <div class="card bg-transparent mb-5" data-aos="fade-left" style="border:none">
                 <div class="row g-0">
                     <div class="col-md-4">
-                        <img src="{{asset('frontend/AstromarG/Pics/birth_chart_calculato.png')}}" class="img-fluid " alt="...">
+                        <img src="{{asset('frontend/AstromarG/Pics/transists_and_progression.jpg')}}" class="img-fluid " alt="...">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body p-5">
@@ -165,7 +165,7 @@
             <div class="card bg-transparent mb-5" data-aos="fade-right" style="border:none">
                 <div class="row g-0">
                     <div class="col-md-4">
-                        <img src="{{asset('frontend/AstromarG/Pics/birth_chart_calculato.png')}}" class="img-fluid " alt="...">
+                        <img src="{{asset('frontend/AstromarG/Pics/astrological_remedies.jpg')}}" class="img-fluid " alt="...">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body p-5">
@@ -188,7 +188,7 @@
             <div class="card bg-transparent mb-5" data-aos="fade-left" style="border:none">
                 <div class="row g-0">
                     <div class="col-md-4">
-                        <img src="{{asset('frontend/AstromarG/Pics/birth_chart_calculato.png')}}" class="img-fluid " alt="...">
+                        <img src="{{asset('frontend/AstromarG/Pics/career_guidance.jpg')}}" class="img-fluid " alt="...">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body p-5">
