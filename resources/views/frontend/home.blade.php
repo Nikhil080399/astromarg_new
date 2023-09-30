@@ -321,7 +321,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">One Mukhi Rudraksha</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -332,10 +332,12 @@
                         </div>
 
                         <!-- Modal footer -->
-                        <div class="modal-footer">
+                        <div class="modal-footer d-flex">
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/1.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            
                         </div>
 
                     </div>
@@ -368,7 +370,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Two Mukhi Rudraksha</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -384,6 +386,7 @@
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/2.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -416,7 +419,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Three Mukhi Rudraksha</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -432,6 +435,7 @@
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/3.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -467,7 +471,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Four Mukhi Rudraksha</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -483,6 +487,7 @@
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/4.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -520,7 +525,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Five Mukhi Rudraksha</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -536,6 +541,7 @@
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/5.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -573,7 +579,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Six Mukhi Rudraksha</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -589,6 +595,7 @@
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/6.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -626,7 +633,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Seven Mukhi Rudraksha</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -642,6 +649,7 @@
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/7.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -677,7 +685,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Eight Mukhi Rudraksha</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -693,6 +701,7 @@
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/8.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -727,7 +736,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Nine Mukhi Rudraksha</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -743,6 +752,7 @@
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/9.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -778,7 +788,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Ten Mukhi Rudraksha</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -794,6 +804,7 @@
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/10.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -828,7 +839,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Eleven Mukhi Rudraksha</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -844,6 +855,7 @@
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/11.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -880,7 +892,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Twelve Mukhi Rudraksha</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -896,6 +908,7 @@
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/12.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -931,7 +944,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Thirteen Mukhi Rudraksha</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -947,6 +960,7 @@
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/13.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -982,7 +996,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Fourteen Mukhi Rudraksha</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -998,6 +1012,7 @@
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/14.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -1032,7 +1047,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Fourteen Mukhi Rudraksha</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -1048,6 +1063,7 @@
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/15.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -1082,7 +1098,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Sixteen Mukhi Rudraksha</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -1098,6 +1114,7 @@
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/16.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -1131,7 +1148,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Seventeen Mukhi Rudraksha</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -1147,6 +1164,7 @@
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/17.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -1180,7 +1198,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Eighteen Mukhi Rudraksha</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -1196,6 +1214,7 @@
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/18.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -1230,7 +1249,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Ganesh Rudraksha</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -1246,6 +1265,7 @@
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/Ganesh.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -1279,7 +1299,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Fourteen Mukhi Rudraksha</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -1295,6 +1315,7 @@
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/GG.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -1327,7 +1348,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Gauri Shankar Rudraksha</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -1343,6 +1364,7 @@
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/GS.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -1396,7 +1418,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Amethyst</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -1412,6 +1434,7 @@
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/Amethyst.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -1447,7 +1470,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Blue Sapphire</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -1464,6 +1487,7 @@
                                 Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -1499,7 +1523,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Cat's Eye</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -1515,6 +1539,7 @@
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/Cats Eye.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -1550,7 +1575,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Citrine</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -1566,6 +1591,7 @@
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/Citrine.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -1605,7 +1631,7 @@
                         <!-- Modal Header -->
                         <div class="modal-header">
                             <h4 class="modal-title">Coral</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            
                         </div>
 
                         <!-- Modal body -->
@@ -1621,6 +1647,7 @@
                             <a href="{{ asset('frontend/AstromarG/Kiran Sir/Coral.jpg') }}" Download="test_image">
                                 <button type="button" class="btn btn-danger" src="" download>Download</button>
                             </a>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
 
                     </div>
@@ -1658,7 +1685,7 @@
                     <!-- Modal Header -->
                     <div class="modal-header">
                         <h4 class="modal-title">Diamond</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        
                     </div>
 
                     <!-- Modal body -->
@@ -1708,7 +1735,7 @@
                     <!-- Modal Header -->
                     <div class="modal-header">
                         <h4 class="modal-title">Emerald</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        
                     </div>
 
                     <!-- Modal body -->
@@ -1758,7 +1785,7 @@
                     <!-- Modal Header -->
                     <div class="modal-header">
                         <h4 class="modal-title">Hessonite</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        
                     </div>
 
                     <!-- Modal body -->
@@ -1807,7 +1834,7 @@
                     <!-- Modal Header -->
                     <div class="modal-header">
                         <h4 class="modal-title">Opal</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        
                     </div>
 
                     <!-- Modal body -->
@@ -1856,7 +1883,7 @@
                     <!-- Modal Header -->
                     <div class="modal-header">
                         <h4 class="modal-title">Pearl Stone</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        
                     </div>
 
                     <!-- Modal body -->
@@ -1906,7 +1933,7 @@
                     <!-- Modal Header -->
                     <div class="modal-header">
                         <h4 class="modal-title">Ruby</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        
                     </div>
 
                     <!-- Modal body -->
@@ -1957,7 +1984,7 @@
                     <!-- Modal Header -->
                     <div class="modal-header">
                         <h4 class="modal-title">Yellow Sapphire</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        
                     </div>
 
                     <!-- Modal body -->
@@ -2029,7 +2056,7 @@
                 <div class="card pmd-card">
                     <!-- Card Media -->
                     <div class="pmd-card-media">
-                        <img src="{{ asset('frontend/stotra/mahadev.jpg') }}" width="1184" height="666"
+                        <img src="{{ asset('frontend/stotra/mahadev.jpeg') }}" width="1184" height="666"
                             class="img-fluid">
                     </div>
 
@@ -2182,7 +2209,7 @@
                 <div class="card pmd-card">
                     <!-- Card Media -->
                     <div class="pmd-card-media">
-                        <img src="{{ asset('frontend/stotra/bhavani_maa.jpg') }}" width="1184" height="666"
+                        <img src="{{ asset('frontend/stotra/bhavani_maa.jpeg') }}" width="1184" height="666"
                             class="img-fluid">
                     </div>
 
@@ -2258,7 +2285,7 @@
                     <!-- Modal Header -->
                     <div class="modal-header">
                         <h4 class="modal-title">॥ श्री गणेश स्तोत्र ॥</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        
                     </div>
 
                     <!-- Modal body -->
@@ -2273,6 +2300,7 @@
                         <a href="{{ asset('frontend/stotra/ganesh.jpg') }}" Download="test_image">
                             <button type="button" class="btn btn-danger" src="" download>Download</button>
                         </a>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
 
                 </div>
@@ -2286,7 +2314,7 @@
                     <!-- Modal Header -->
                     <div class="modal-header">
                         <h4 class="modal-title">॥ श्रीरुद्राष्टकम् ॥</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        
                     </div>
 
                     <!-- Modal body -->
@@ -2301,6 +2329,7 @@
                         <a href="{{ asset('frontend/stotra/rudra.jpg') }}" Download="test_image">
                             <button type="button" class="btn btn-danger" src="" download>Download</button>
                         </a>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
 
                 </div>
@@ -2313,7 +2342,7 @@
                     <!-- Modal Header -->
                     <div class="modal-header">
                         <h4 class="modal-title">॥ हनुमान चालीसा ॥</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        
                     </div>
 
                     <!-- Modal body -->
@@ -2333,8 +2362,12 @@
                                 <div class="text-center mt-2">
                                     <a href="{{ asset('frontend/stotra/hanuman_chalisa-2.jpg') }}"
                                         download="hanuman_chalisa-2.jpg" class="btn btn-danger">Download </a>
+                                        
                                 </div>
                             </div>
+                        </div>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
 
@@ -2353,7 +2386,7 @@
                     <!-- Modal Header -->
                     <div class="modal-header">
                         <h4 class="modal-title">॥ श्री महालक्ष्म्यष्टकम् ॥</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        
                     </div>
 
                     <!-- Modal body -->
@@ -2368,6 +2401,7 @@
                         <a href="{{ asset('frontend/stotra/mahalakshmi.jpg') }}" Download="test_image">
                             <button type="button" class="btn btn-danger" src="" download>Download</button>
                         </a>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
 
                 </div>
@@ -2381,7 +2415,7 @@
                     <!-- Modal Header -->
                     <div class="modal-header">
                         <h4 class="modal-title">॥ काल भैरव अष्टक ॥</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        
                     </div>
 
                     <!-- Modal body -->
@@ -2396,6 +2430,7 @@
                         <a href="{{ asset('frontend/stotra/kalbhairav.jpg') }}" Download="test_image">
                             <button type="button" class="btn btn-danger" src="" download>Download</button>
                         </a>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
 
                 </div>
@@ -2408,13 +2443,13 @@
                     <!-- Modal Header -->
                     <div class="modal-header">
                         <h4 class="modal-title">॥ आदित्य हृदयस्तोत्र ॥</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        
                     </div>
 
                     <!-- Modal body -->
                     <div class="modal-body">
                         <div class="row">
-                            <div class="col">
+                            <div class="col-6">
                                 <img class="img-fluid" src="{{ asset('frontend/stotra/aaditya-1.jpg') }}"
                                     alt="">
                                 <div class="text-center mt-2">
@@ -2422,17 +2457,20 @@
                                         download="hanuman_chalisa-1.jpg" class="btn btn-danger">Download </a>
                                 </div>
                             </div>
-                            <div class="col">
+                            <div class="col-6">
                                 <img class="img-fluid" src="{{ asset('frontend/stotra/aaditya-2.jpg') }}"
                                     alt="">
                                 <div class="text-center mt-2">
                                     <a href="{{ asset('frontend/stotra/ganesh.jpg') }}" download="aaditya-2.jpg"
                                         class="btn btn-danger">Download </a>
+                                        
                                 </div>
                             </div>
                         </div>
+                        <div class="text-center">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
-
+                </div>
                     <!-- Modal footer -->
                     <div class="modal-footer">
                         <!-- Add any footer content you need -->
@@ -2448,7 +2486,7 @@
                     <!-- Modal Header -->
                     <div class="modal-header">
                         <h4 class="modal-title">॥ दारिद्र्य दहन शिवस्तोत्रं ॥</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        
                     </div>
 
                     <!-- Modal body -->
@@ -2463,6 +2501,7 @@
                         <a href="{{ asset('frontend/stotra/shivstotra.jpg') }}" Download="test_image">
                             <button type="button" class="btn btn-danger" src="" download>Download</button>
                         </a>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
 
                 </div>
@@ -2476,7 +2515,7 @@
                     <!-- Modal Header -->
                     <div class="modal-header">
                         <h4 class="modal-title">॥ दारिद्र्य दहन शिवस्तोत्रं ॥</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        
                     </div>
 
                     <!-- Modal body -->
@@ -2492,6 +2531,7 @@
                         <a href="{{ asset('frontend/stotra/wadwanal_stotra.jpg') }}" Download="test_image">
                             <button type="button" class="btn btn-danger" src="" download>Download</button>
                         </a>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
 
                 </div>
@@ -2505,7 +2545,7 @@
                     <!-- Modal Header -->
                     <div class="modal-header">
                         <h4 class="modal-title">॥ भवानी अष्टकम ॥</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        
                     </div>
 
                     <!-- Modal body -->
@@ -2520,6 +2560,7 @@
                         <a href="{{ asset('frontend/stotra/bhavani.jpg') }}" Download="test_image">
                             <button type="button" class="btn btn-danger" src="" download>Download</button>
                         </a>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
 
                 </div>
@@ -2533,7 +2574,7 @@
                     <!-- Modal Header -->
                     <div class="modal-header">
                         <h4 class="modal-title">॥ नवग्रह स्तोत्र ॥</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        
                     </div>
 
                     <!-- Modal body -->
@@ -2548,6 +2589,7 @@
                         <a href="{{ asset('frontend/stotra/navgrah.jpg') }}" Download="test_image">
                             <button type="button" class="btn btn-danger" src="" download>Download</button>
                         </a>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
 
                 </div>
@@ -2561,7 +2603,7 @@
                     <!-- Modal Header -->
                     <div class="modal-header">
                         <h4 class="modal-title">॥ निर्वाणषट्कम् ॥</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        
                     </div>
 
                     <!-- Modal body -->
@@ -2577,6 +2619,7 @@
                         <a href="{{ asset('frontend/stotra/nirvanshatkam.jpg') }}" Download="test_image">
                             <button type="button" class="btn btn-danger" src="" download>Download</button>
                         </a>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
 
                 </div>
