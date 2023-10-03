@@ -1403,10 +1403,10 @@
 
         </div>
         <div class="text-center" id="div_more">
-            <button class="btn " id="view_more" onclick="more();" style="background: #FF4A17">View More</button>
+            <button class="btn btn-outline-warning" id="view_more" onclick="more();">View More <span><i class="fa-solid fa-caret-down"></i></span></button>
         </div>
         <div class="text-center" id="div_less" style="display:none;">
-            <button class="btn " id="view_less" onclick="less();" style="background: #FF4A17">View Less</button>
+            <button class="btn btn-outline-warning" id="view_less" onclick="less();">View Less <span><i class="fa-solid fa-caret-up"></i></span> </button>
         </div>
     </div>
 
@@ -2039,11 +2039,11 @@
         </div>
     </div>
 
-    <div class="text-center" id="for_more" style="background-color: #07273c;">
-        <button class="btn btn-warning" onclick="more1();">View More</button>
+    <div class="text-center" id="for_more" style="background-color: hsl(204, 79%, 13%);">
+        <button class="btn btn-outline-warning" onclick="more1();">View More <span><i class="fa-solid fa-caret-down"></i></span></button>
     </div>
     <div class="text-center" id="for_less" style="display:none; background-color: #07273c;">
-        <button class="btn btn-primary" onclick="less1();">View Less</button>
+        <button class="btn btn-outline-warning" onclick="less1();">View Less <span><i class="fa-solid fa-caret-up"></i></span></button>
     </div>
 
 
