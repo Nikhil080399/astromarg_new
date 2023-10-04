@@ -464,7 +464,7 @@
                         <div class="modal-body">
                             <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/2.jpg') }}"
                                 alt="">
-
+{{-- jj --}}
 
                         </div>
 
