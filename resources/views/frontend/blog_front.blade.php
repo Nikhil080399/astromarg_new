@@ -88,6 +88,15 @@
     .carousel-control-next:hover {
         opacity: 1;
     }
+    .card {
+            height: 100%;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.1);
+            border: solid #FF4A17 1px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            flex: 1 1 200px;
+            margin: 10px;
+        }
 </style>
 <div class="astro_service">
 
@@ -115,7 +124,7 @@
                         </span>
                         <div class="card-body">
                             <a href="{{ route('blog_page', ['id' => $item->id]) }}" class="text-dark text-decoration-none">
-                                <h5 class="card-title px-1">{!! $item->title !!}</h5>
+                                <h5 class="card-title text-white px-1">{!! $item->title !!}</h5>
                             </a>
                         </div>
                     </div>

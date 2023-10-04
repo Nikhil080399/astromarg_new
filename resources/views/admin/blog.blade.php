@@ -52,7 +52,7 @@
                                 <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
                                     S.No.</th>
                                 <th
-                                    class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                    class="text-uppercase text-center text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
                                     Image</th>
                                 <th
                                     class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
@@ -67,8 +67,8 @@
                                     Date
                                 </th>
 
-                                <th class="text-secondary opacity-7">Edit</th>
-                                <th class="text-secondary opacity-7">Delete</th>
+                                <th class="text-center text-secondary opacity-7">Update</th>
+                                <th class="text-center text-secondary opacity-7">Delete</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -110,7 +110,7 @@
                                   
                                     <td class="align-middle">
                                         <a href="{{ url('Blog/edit/' . $item->id) }}"> <span
-                                            class="btn btn-success">Edit</span></a>
+                                            class="btn btn-success">Update</span></a>
                                     </td>
 
                                     <td class="align-middle">

@@ -11,9 +11,7 @@
             
         }
         <style>
-        .nav-white {
-            background-color: white !important;
-        }
+        
 
         .blog-cards a {
             text-decoration: none;
@@ -47,7 +45,7 @@
         }
 
         body {
-            background-color: #f9f9f9;
+            background-color: #07273c;
         }
 
         .container {
@@ -103,7 +101,7 @@
         <div class="row py-5 px-4 px-md-0 px-lg-0">
             <!-- left hand side -->
             <div class="col col-lg-3 col-md-12 col-sm-12 px-0">
-                <h4 class="px-2" style="border-left: 4px solid orangered;">Latest Blogs</h4>
+                <h4 class="px-2 text-white" style="border-left: 4px solid orangered;">Latest Blogs</h4>
                 @foreach ($blog_latest as $item)
                     <!-- available Blogs -->
                     {{-- <a href="{{ route('blog_page', ['id' => $item->id]) }}"> --}}
@@ -117,7 +115,7 @@
                             <p style="color: #8b8e92;"><span class="pe-2"><i class="fa-solid fa-calendar-days fa-sm"
                                         style="color: #8b8e92;"></i></span>{!! $item->date !!}</p>
                             <a class="text-decoration-none" href="{{ route('blog_page', ['id' => $item->id]) }}">
-                                <h6 class="text-dark">{!! $item->title !!}</h6>
+                                <h6 class="">{!! $item->title !!}</h6>
                             </a>
                         </div>
                     </div>
@@ -138,11 +136,11 @@
                             </div>
                             <div class="py-2 px-2" style="border-bottom: 1px dotted;">
                                 <p><i class="fa-solid fa-phone fa-sm" style="color: #d1e633;"><span
-                                            class="text-light px-2"></span></i>+123456789</p>
+                                            class="text-light px-2"></span></i> +91 9890114511</p>
                             </div>
                             <div class="py-2 px-2">
                                 <p><i class="fa-solid fa-envelope fa-sm" style="color: #d1e633;"><span
-                                            class="text-light px-2"></span></i>info@example.com</p>
+                                            class="text-light px-2"></span></i>contact@astromarg.org</p>
                             </div>
 
                         </div>
@@ -165,7 +163,7 @@
                     </div>
                     <!-- Blog Text -->
                     <div class="col-12 px-0 px-lg-2 px-md-2">
-                        <div class="px-2 pt-2  mob_text">{!! $blogPost->discription !!}</div>
+                        <div class="px-2 pt-2  mob_text text-white">{!! $blogPost->description !!}</div>
                     </div>
                 </div>
             </div>

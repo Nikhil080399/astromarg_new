@@ -39,7 +39,7 @@
                                             <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
                                                 S.No.</th>
                                             <th
-                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                                class="text-uppercase text-center text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
                                                 Video</th>
                                             <th class="text-secondary opacity-7">Update</th>
                                             <th class="text-secondary opacity-7">Delete</th>
@@ -65,7 +65,7 @@
 
                                                 <td class="align-middle">
                                                     <a href="{{ url('video/edit/' . $item->id) }}">
-                                                        <span class="btn btn-success">Edit</span></a>
+                                                        <span class="btn btn-success">Update</span></a>
                                                 </td>
 
                                                 <td class="align-middle">

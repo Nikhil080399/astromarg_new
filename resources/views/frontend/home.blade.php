@@ -339,33 +339,43 @@
     <!-- End Hero -->
 
     {{-- Blog Start --}}
-    <section id="for-title" class="main-heading px-3" style=" background-color: #07273c">
-        <!------------------------------------------ Birth Chart Analysis --------------------------------------------------->
-        <div class="for-cards" style=" color: white;">
-            <div class="row px-2">
-                <div class="col-md-6 col-sm-12 ps-5">
-
-                    <div class="card mb-3 bg-transparent" style="box-shadow: 0 0.5rem 1rem rgba(7, 7, 8, 1.15);">
+    <div class="container-fluid justify-content-around text-center section-5-background py-5 section" style="background-color: #07273c">
+        <!-- section 5 -->
+        <!-- headings -->
+        <div class="row text-dark mt-5">
+            <div class="twelve py-3">
+                <h1>Blog's</h1>
+            </div>
+            
+            <br />
+        </div>
+        <div class="row p-5 justify-content-center">
+            @foreach ($blog_latest as $item)
+                <div class="col-md- col-lg-4 col-sm-12">
+                    <div class="card mb-3 mx-auto" style="max-width: 540px;">
                         <div class="row g-0">
-                            <div class="col-md-5">
-                                <img src="{{asset('frontend/AstromarG/Pics/birth_chart_calculato.png')}}" class="img-fluid rounded-start" alt="...">
+                            <div class="col-md-4">
+                                <a href="{{ route('blog_page', ['id' => $item->id]) }}">
+                                    <img src="{{ asset($item->image) }}" class="img-fluid rounded-start"
+                                        alt="{{ $item->title }}" style="height:160px!important;object-fit: cover;min-width: 100%;">
+                                </a>
                             </div>
-                            <div class="col-md-7">
-                                <div class="card-body">
-                                    <h5 class="card-title fw-bold" style="        color: #ff4a17;
-                                    ">Birth Chart Analysis: </h5>
-                                    <p class="card-text">Astrologers analyze an individual's birth chart (natal
-                                        chart) to provide insights into their personality traits, strengths,
-                                        challenges, career potential, relationships, and more.</p>
-
+                            <div class="align-self-center col-md-8">
+                                <div class="card-body text-start">
+                                    <p class="card-text fw-medium mb-0 text-light"><small
+                                            class="">{{ $item->date }}</small>
+                                    </p>
+                                    <a class="text-decoration-none text-dark" href="{{ route('blog_page', ['id' => $item->id]) }}">
+                                        <p class="card-text fw-medium">{{ $item->title }}</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            @endforeach
         </div>
-    </section> 
+    </div>
     {{-- Blog End --}}
 
     {{-- slider start --}}
@@ -464,7 +474,7 @@
                         <div class="modal-body">
                             <img class="img-fluid" src="{{ asset('frontend/AstromarG/Kiran Sir/2.jpg') }}"
                                 alt="">
-{{-- jj --}}
+
 
                         </div>
 

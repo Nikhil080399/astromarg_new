@@ -10,9 +10,10 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    function index()
+    function index(Blog $blog)
     {
-        return view('frontend/home');
+        $blog_latest = Blog::latest()->limit(3)->get();
+        return view('frontend/home',compact('blog_latest'));
     }
 
    
