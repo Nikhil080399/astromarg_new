@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Blog;
+use App\Models\Image_gallery;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
@@ -103,6 +104,12 @@ class BlogController extends Controller
             $blog->delete();
             return redirect('/blog');
         }
+    }
+    public function blogPage(Blog $blog,Request $request, $id)
+    {
+        $blogPost = Blog::find($id);
+        $blog_latest = Blog::latest()->limit(3)->get();
+        return view('frontend.blog_page', compact('blogPost','blog_latest'));
     }
     
 }

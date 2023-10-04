@@ -12,12 +12,7 @@
 
 </style>
  <!-- ======= Footer ======= -->
- <div class="me-auto bg-transparent buton" style="position:fixed;">
-<button type="button" class="btn btn-primary btn-circle btn-sm">Blue</button>
-<button type="button" class="btn btn-primary btn-circle btn-sm">Blue</button>
-<button type="button" class="btn btn-primary btn-circle btn-sm">Blue</button>
-<button type="button" class="btn btn-primary btn-circle btn-sm">Blue</button>
-</div>
+
 
 
   <footer id="footer">
