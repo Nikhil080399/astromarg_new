@@ -92,6 +92,25 @@
         Designed by<b><a href="http://iceico.in/" target="_blank" style="color: #fa0303;">ICEICO Technologies Pvt. Ltd.</a></b>
         </span>
     </div>
+
+    <div class="style-switch right" id="switch-style" style="right: -265px;">
+      <a href="https://wa.me/9890114511" data-target="_blank" id="right-sidbar" class="switch-button">
+          <i class="fab fa-whatsapp p-2 text-white" style="background-color: green !important;"></i>
+      </a>
+      <a href="https://www.facebook.com/SeaWayCorporation" target="_blank" class="switch-button cust-fb">
+          <i class="fab fa-facebook-f p-2"></i>
+      </a>
+      <a href="https://www.youtube.com/channel/SeaWayCoporation" target="_blank" class="switch-button cust-tw">
+          <i class="fab fa-youtube p-2" style="background-color: red !important;"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/seaway-corporation-8607a6283/" target="_blank"
+          class="switch-button cust-ins">
+          <i class="fab fa-linkedin-in p-2"></i>
+      </a>
+      <div class="switched-options">
+
+      </div>
+  </div>
   </footer><!-- End Footer -->
 
   
