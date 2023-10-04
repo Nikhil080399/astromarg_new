@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers\frontend;
 
+
+use App\Models\Blog;
+
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
@@ -11,4 +14,6 @@ class HomeController extends Controller
     {
         return view('frontend/home');
     }
+
+   
 }

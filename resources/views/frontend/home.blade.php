@@ -215,6 +215,63 @@
 
         /* Propeller Carousel */
         @import "carousel/css/pmd-carousel.css";
+
+        .style-switch {
+            opacity: 1;
+            position: fixed;
+            z-index: 9999;
+            top: 210px;
+            -webkit-backface-visibility: hidden;
+            background: #fff;
+            box-shadow: 0 0 5px rgb(0 0 0 / 20%);
+            -webkit-box-shadow: 0 0 5px rgb(0 0 0 / 20%);
+            background-color: #00bd31;
+        }
+
+        .style-switch.right .switch-button {
+            position: absolute;
+            top: 0;
+            left: -38px;
+            display: inline-block;
+            background: #FC3;
+            width: 38px;
+            height: 38px;
+            line-height: 35px;
+            text-align: center;
+            font-size: 24px;
+            color: #000;
+            box-shadow: 0 0 5px rgb(0 0 0 / 20%);
+            -webkit-box-shadow: 0 0 5px rgb(0 0 0 / 20%);
+        }
+
+        .cust-ins {
+            top: 120px !important;
+            background: radial-gradient(circle at 30% 107%, #0077B5 0%, #0077B5 5%, #00579A 45%, #004471 60%, #1B5299 90%) !important;
+            color: #fff !important;
+        }
+
+        .cust-fb {
+            top: 40px !important;
+            background-color: #4267b2 !important;
+            color: #fff !important;
+        }
+
+        .cust-tw {
+            top: 80px !important;
+            background-color: #1da1f2 !important;
+            color: #fff !important;
+        }
+
+        .style-switch .fa {
+            font-size: 20px;
+        }
+
+        .style-switch .switched-options {
+            position: relative;
+            width: 265px !important;
+            text-align: left;
+            padding: 12px;
+        }
     </style>
 
 
@@ -262,11 +319,11 @@
 
                         <!-- Left and right controls -->
                         <!-- <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                                                                                    <span class="carousel-control-prev-icon"></span>
-                                                                                  </a>
-                                                                                  <a class="carousel-control-next" href="#demo" data-slide="next">
-                                                                                    <span class="carousel-control-next-icon"></span>
-                                                                                  </a> -->
+                                <span class="carousel-control-prev-icon"></span>
+                              </a>
+                              <a class="carousel-control-next" href="#demo" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                              </a> -->
 
                     </div>
                 </div>

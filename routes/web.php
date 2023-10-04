@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\frontend\HomeController;
 use App\Http\Controllers\frontend\About_UsController;
 use App\Http\Controllers\frontend\Astro_ServicesController;
-use App\Http\Controllers\frontend\BlogController;
+use App\Http\Controllers\BlogController;
 use App\Http\Controllers\frontend\Astromarg_SolutionController;
 use App\Http\Controllers\frontend\Chandal_YogaController;
 use App\Http\Controllers\frontend\ColorsController;
@@ -32,6 +32,7 @@ use App\Http\Controllers\frontend\Vastu_ConsulationController;
 use App\Http\Controllers\frontend\Vish_YogController;
 use App\Http\Controllers\frontend\VratController;
 use App\Http\Controllers\frontend\YantraController;
+use App\Http\Controllers\VideoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -76,10 +77,6 @@ Route::get('/stotra',[StotraController::class, 'index'])->name('stotra');
 
 
 
-
-
-
-
 Route::get('/login', function () {
     return view('auth.login');
 });
@@ -93,5 +90,25 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+
+Route::get('blog', [BlogController::class, 'index'])->name('blog');
+Route::post('store_blog', [BlogController::class, 'store']);
+Route::get('Blog/delete/{id}', [BlogController::class, 'destroy']);
+Route::get('blog_front', [BlogController::class, 'show'])->name('blog_front');
+Route::get('Blog/edit/{id}', [BlogController::class, 'edit']);
+Route::post('blog/update/{id}', [BlogController::class, 'update'])->name('blog.update');
+Route::get('/blog/{id}', [BlogController::class, 'blogPage'])->name('blog_page'); 
+
+
+Route::get('video_back', [VideoController::class, 'index'])->name('video_back');
+Route::post('insert_video', [VideoController::class, 'store']);
+Route::get('video/delete/{id}', [VideoController::class, 'destroy']);
+Route::get('video', [VideoController::class, 'show'])->name('video');
+Route::get('video/edit/{id}', [VideoController::class, 'edit']);
+Route::post('video/update/{id}', [VideoController::class, 'update'])->name('video.update');
+Route::get('/video/{id}', [BlogController::class, 'videopage'])->name('video_page'); 
+
+
+
 
 require __DIR__.'/auth.php';

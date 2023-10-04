@@ -17,7 +17,13 @@
             </ul>
           </li>
           <li><a href="{{ route('astro-services')}}">Astro Services</a></li>
-          <li><a href="{{ route('blog')}}">Blog</a></li>
+          <li class="drop-down"><a href="#kundali_dosh">Gallary</a>
+            <ul>
+              <li><a href="{{ route('blog_front')}}">Blog</a></li>
+              <li><a href="{{ route('video')}}">Video</a></li>
+            </ul>
+          </li>
+
           <li class="drop-down"><a href="#a_remedies">Astro Remedies</a>
             <ul>
               <li><a href="{{ route('gemstones')}}">Gemstones</a></li>

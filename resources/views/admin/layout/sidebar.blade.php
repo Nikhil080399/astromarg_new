@@ -10,7 +10,7 @@
     <!--navigation-->
     <ul class="metismenu" id="menu">
         <li>
-            <a href="javascript:;">
+            <a href="{{ url('dashboard') }}">
                 <div class="parent-icon"><i class='bx bx-home-circle'></i>
                 </div>
                 <div class="menu-title">Dashboard</div>
@@ -46,10 +46,8 @@
                 <div class="menu-title">Insert Data</div>
             </a>
             <ul>
-                <li> <a href="#"><i class="bx bx-right-arrow-alt"></i>Blog</a>
-                </li>
-                <li> <a href="#"><i class="bx bx-right-arrow-alt"></i>Video</a>
-                </li>
+                <li> <a href="{{ url('blog') }}"><i class="bx bx-right-arrow-alt"></i>Blog</a> </li>
+                <li> <a href="{{ url('video_back') }}"><i class="bx bx-right-arrow-alt"></i>Video</a> </li>
             </ul>
         </li>
         
