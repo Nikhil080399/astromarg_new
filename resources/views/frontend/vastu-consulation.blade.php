@@ -59,6 +59,7 @@
       border-radius: 10px;
       overflow: hidden;
       margin: 10px;
+      padding: 20px;
 }
 
 .for-img{

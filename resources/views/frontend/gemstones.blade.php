@@ -73,7 +73,7 @@
                     <!--=========================================== Wearing Gemstones:  ====================================================-->
                     <div class="card p-3 m-4 col-md-5 col-sm-12">
                         <div class="card-item p-3">
-                            <img src="{{asset('frontend/AstromarG/chandal_effect.jpg')}}" alt="" style="height:15rem; width:100%;">
+                            <img src="{{asset('frontend/AstromarG/gemstones_wearing.jpeg')}}" alt="" style="height:15rem; width:100%;">
                         </div>
                         <div class="card-body pt-3">
                             <h4 class="crad-title text-center">Wearing Gemstones: </h5>
@@ -89,7 +89,7 @@
                     <!-- <div class="row justify-content-around"> -->
                     <div class="card p-3 m-4 col-md-5 col-sm-12">
                         <div class="card-item p-3">
-                            <img src="{{asset('frontend/AstromarG/chandal_characteristics.jpeg')}}" alt=""
+                            <img src="{{asset('frontend/AstromarG/effects_of_gemstones.jpeg')}}" alt=""
                                 style="height:15rem; width:100%;">
                         </div>
                         <div class="card-body pt-3">
@@ -105,7 +105,7 @@
 
                     <div class="card p-3 m-4 col-md-5 col-sm-12">
                         <div class="card-item p-3">
-                            <img src="{{asset('frontend/AstromarG/chandal_remedies.jpeg')}}" alt="" style="height:15rem; width:100%;">
+                            <img src="{{asset('frontend/AstromarG/planetary_transists.jpeg')}}" alt="" style="height:15rem; width:100%;">
                         </div>
                         <div class="card-body pt-3">
                             <h4 class="crad-title text-center">Planetary Transits: </h5>
@@ -122,7 +122,7 @@
 
                     <div class="card p-3 m-4 col-md-5 col-sm-12">
                         <div class="card-item p-3">
-                            <img src="{{asset('frontend/AstromarG/chandal_analysis.jpeg')}}" alt="" style="height:15rem; width:100%;">
+                            <img src="{{asset('frontend/AstromarG/gemstones_energy.jpeg')}}" alt="" style="height:15rem; width:100%;">
                         </div>
                         <div class="card-body pt-3">
                             <h4 class="crad-title text-center">Gemstone Energies: </h5>
@@ -138,7 +138,7 @@
 
                     <div class="card p-3 m-4 col-md-5 col-sm-12">
                         <div class="card-item p-3">
-                            <img src="{{asset('frontend/AstromarG/chandal_analysis.jpeg')}}" alt="" style="height:15rem; width:100%;">
+                            <img src="{{asset('frontend/AstromarG/consultation_astrologer.jpeg')}}" alt="" style="height:15rem; width:100%;">
                         </div>
                         <div class="card-body pt-3">
                             <h4 class="crad-title text-center">Consultation with Astrologers: </h5>
@@ -154,7 +154,7 @@
 
                     <div class="card p-3 m-4 col-md-5 col-sm-12">
                         <div class="card-item p-3">
-                            <img src="{{asset('frontend/AstromarG/chandal_analysis.jpeg')}}" alt="" style="height:15rem; width:100%;">
+                            <img src="{{asset('frontend/AstromarG/quality_gemstones.jpeg')}}" alt="" style="height:15rem; width:100%;">
                         </div>
                         <div class="card-body pt-3">
                             <h4 class="crad-title text-center">Quality and Authenticity: </h5>
