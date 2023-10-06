@@ -88,4 +88,10 @@ class VideoController extends Controller
         $video->delete();
         return redirect('/video');
     }
+    public function video(Video $video,Request $request, $id)
+    {
+        $videoPost = Video::find($id);
+        $video_latest = Video::latest()->limit(3)->get();
+        return view('frontend.video', compact('videoPost','video_latest'));
+    }
 }

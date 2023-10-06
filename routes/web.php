@@ -91,6 +91,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+// blog
 Route::get('blog', [BlogController::class, 'index'])->name('blog');
 Route::post('store_blog', [BlogController::class, 'store']);
 Route::get('Blog/delete/{id}', [BlogController::class, 'destroy']);
@@ -99,14 +100,14 @@ Route::get('Blog/edit/{id}', [BlogController::class, 'edit']);
 Route::post('blog/update/{id}', [BlogController::class, 'update'])->name('blog.update');
 Route::get('/blog/{id}', [BlogController::class, 'blogPage'])->name('blog_page'); 
 
-
+// video
 Route::get('video_back', [VideoController::class, 'index'])->name('video_back');
 Route::post('insert_video', [VideoController::class, 'store']);
 Route::get('video/delete/{id}', [VideoController::class, 'destroy']);
 Route::get('video', [VideoController::class, 'show'])->name('video');
 Route::get('video/edit/{id}', [VideoController::class, 'edit']);
 Route::post('video/update/{id}', [VideoController::class, 'update'])->name('video.update');
-Route::get('/video/{id}', [BlogController::class, 'videopage'])->name('video_page'); 
+Route::get('/video/{id}', [VideoController::class, 'videopage'])->name('video_page'); 
 
 
 

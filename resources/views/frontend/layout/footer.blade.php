@@ -17,7 +17,7 @@
 
   <footer id="footer">
     <div class="">
-    <p class="fs-4 fw-bold pt-2 text-center m-0">Have questions or ready to begin your journey? <span><button type="button" class="btn btn-outline-warning fw-bold fs-5">Contact us</button></span> </p>  
+    <p class="fs-4 fw-bold p-2 text-center m-0">Have questions or ready to begin your journey? <span><button type="button" class="btn btn-outline-warning fw-bold fs-5">Contact us</button></span> </p>  
       
     </div>
     <div class="footer-top">
